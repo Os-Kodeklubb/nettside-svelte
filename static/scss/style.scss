@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    -webkit-text-size-adjust: 100%;
+    font: 100%/1.55 Poppins,sans-serif;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+@font-face {
+    font-family: Recoleta;
+    src: url(../static/fonts/Recoleta-Regular.ttf);
+}
+
+@font-face {
+    font-family: Recoleta;
+    src: url(../static/fonts/Recoleta-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Recoleta;
+    src: url(../static/fonts/Recoleta-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../static/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../static/fonts/Poppins-Bold.ttf);
+    font-weight: bold;
+}
+
+.row {
+    padding: 0 4vw;
+}
