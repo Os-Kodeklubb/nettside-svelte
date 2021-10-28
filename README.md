@@ -1,38 +1,44 @@
-# create-svelte
+# Nettside til Os Kodeklubb
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+Laget en enkel nettside for Os Kodeklubb, bygget på [SvelteKit](https://kit.svelte.dev/)
 
-## Creating a project
+Det er for tiden fortsatt i beta, men føles relativt stabilt etter en stund med bruk.
 
-If you're seeing this, you've probably already done this step. Congrats!
+Forskjellen mellom SvelteKit og Svelte ser hovedsakelig ut til å være at SvelteKit har:
+- SSR (server-side rendering)
+- Routing
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+## Opprette prosjektet lokalt
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
+Dersom du ønsker å teste ut dette prosjektet lokalt, kan du første [`clone´](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) prosjektet lokalt.
 
-> Note: the `@next` is temporary
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Naviger så inn i mappen som inneholder filene i dette repoet og så kjører du disse kommandoene i terminalen
 
 ```bash
+# installerer dependencies
+npm install
+
+# starter opp serveren lokalt
 npm run dev
 
-# or start the server and open the app in a new browser tab
+# eller start opp serveren, og den åpner siden i nettleseren din
 npm run dev -- --open
 ```
 
-## Building
+Standard er `localhost:3000`, men porten kan endres til noe annet om ønskelig.
 
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
+## Produksjon
+
+Dersom man ønsker å teste ut hvordan siden ser ut i produksjon kan man gjøre følgende:
 
 ```bash
+# bygger siden for produksjon
 npm run build
+
+# viser en forhåndsvisning av hvordan produksjonen vil se ut om man laster den opp til en server
+npm run preview
 ```
 
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+Om man ønsker å laste denne opp, kan man bruke f.eks. [Netlify](https://www.netlify.com/) (denne har jeg hovedsakelig brukt) eller [Vercel](https://vercel.com/)
+
+> Husk at man må installere riktig adapter for å kunne `deploye` til eksemplene ovenfor
