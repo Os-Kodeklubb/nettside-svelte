@@ -5,7 +5,7 @@
             <p>Her er et utvalg av aktiviteter og målsetninger vi har satt for vår forening:</p>
             <div class="item-list">
                 <div class="item">
-                    <h4>Ukentlige møter</h4>
+                    <h4>Bi-ukentlige møter</h4>
                     <p>Vi møtes annenhver uke i Gründerparken i Os sentrum der vi gjennomgår ulike temaer i plenum.</p>
                 </div>
                 <div class="item">

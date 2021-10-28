@@ -24,7 +24,7 @@
 
 <style lang="scss">
     .blog {
-        padding: 4vw 0;
+        padding: 8vw 0 4vw 0;
         .row {
             h2 {
                 color: #000;

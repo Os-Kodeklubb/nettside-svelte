@@ -49,6 +49,7 @@
                     padding: 10px 30px;
                     display: inline-block;
                     text-decoration: none;
+                    margin: 30px 0 0 0;
                     &.main {
                         margin: 0 10px 0 0;
                         transition: all .3s cubic-bezier(0,.89,.44,1);
