@@ -1,19 +1,17 @@
 {
-  "name": "okk-nettside-svelte",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "preview": "svelte-kit preview"
-  },
-  "devDependencies": {
-    "@sveltejs/kit": "next",
-    "node-sass": "^6.0.1",
-    "svelte": "^3.42.6",
-    "svelte-preprocess": "^4.9.8"
-  },
-  "type": "module",
-  "dependencies": {
-    "typescript": "^4.4.4"
-  }
+    "name": "okk-nettside-svelte",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "svelte-kit dev",
+        "build": "svelte-kit build",
+        "preview": "svelte-kit preview"
+    },
+    "devDependencies": {
+        "@sveltejs/kit": "next",
+        "node-sass": "^6.0.1",
+        "svelte": "^3.42.6",
+        "svelte-preprocess": "^4.9.8",
+        "typescript": "^4.4.4"
+    },
+    "type": "module"
 }
