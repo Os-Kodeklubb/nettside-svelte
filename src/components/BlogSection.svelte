@@ -1,4 +1,9 @@
+<script  lang="ts">
+    let test: "test" | "tessst";
+
+</script>
 <section class="blog">
+    {test = "test" }
     <div class="row">
         <h2>Siste nyheter</h2>
         <p>Få med deg det siste som har skjedd og kommende arrangement hos Os Kodeklubb:</p>
