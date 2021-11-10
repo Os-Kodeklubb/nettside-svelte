@@ -6,10 +6,16 @@
     <div class="row">
         <div class="two-wide">
             <div class="holder-one">
-                <h1><span>Vi er</span> <mark>Os Kodeklubb</mark></h1>
-                <p>Ønsker du å utvide din kompetanse innenfor koding eller er du helt fersk og kunne tenkt deg å komme i gang?</p>
+                <h1><span>Sosial</span> <mark>kodefelleskap</mark></h1>
+                <h3>Med fokus på læring</h3>
                 
-                <p>Vi er en gjeng som jevnlig møtes for å eksperimentere og lære av hverandre alt som har med koding og programmering å gjøre!</p>
+                <ul>
+                    <li>Over 18 år</li>
+                    <li>Språkuavhengig</li>
+                    <li>Design, frontend, backend, fullstack og sikkerhet</li>
+                    <li>Alt fra nybegynnere til erfarne utviklere. Fra selvlærte til skolerte kodere.</li>
+                </ul>
+
                 <div class="cta-area">
                     <a href="#" class="cta main">Kontakt</a>
                     <a href="#" class="cta secondary">Hva vi gjør</a>

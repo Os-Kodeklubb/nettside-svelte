@@ -7,7 +7,7 @@
 
 <HeroSection />
 <ExplanationSection />
-<BlogSection />
+<!-- <BlogSection /> --> 
 <ContactSection />
 
 <style lang="scss">

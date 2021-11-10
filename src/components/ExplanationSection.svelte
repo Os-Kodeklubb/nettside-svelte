@@ -1,23 +1,23 @@
 <section class="explanation">
     <div class="row">
         <div class="box">
-            <h2>Formaal med Os Kodeklubb</h2>
-            <p>Her er et utvalg av aktiviteter og målsetninger vi har satt for vår forening:</p>
+            <h2>Aktiviteter i Os Kodeklubb</h2>
+            <p>Her er et utvalg av aktiviteter vi har satt for vår forening:</p>
             <div class="item-list">
                 <div class="item">
-                    <h4>Bi-ukentlige møter</h4>
+                    <h4>Kodeonsdag</h4>
                     <p>Vi møtes annenhver uke i Gründerparken i Os sentrum der vi gjennomgår ulike temaer i plenum.</p>
                 </div>
                 <div class="item">
-                    <h4>Planlagte kurs</h4>
+                    <h4>Felles aktiviteter</h4>
                     <p>Til ulike tider vil våre medlemmer avholde kurs i relevante tema - ment både for erfarne og nybegynnere.</p>
                 </div>
                 <div class="item">
-                    <h4>Felles prosjekter</h4>
+                    <h4>Nybegynnergrupper</h4>
                     <p>Sammen arbeider vi for å utvikler ulike prosjekter, nettsider, programmer og annet som vi finner interessant.</p>
                 </div>
                 <div class="item">
-                    <h4>Junioravdeling</h4>
+                    <h4>Andre</h4>
                     <p>Arbeider med å opprette en kodeklubb for yngre og lærevillige kodeentusiaster</p>
                 </div>
             </div>
