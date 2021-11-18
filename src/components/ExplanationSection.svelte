@@ -6,7 +6,7 @@
             <div class="item-list">
                 <div class="item">
                     <h4>Kodeonsdag</h4>
-                    <p>Vi møtes annenhver uke i Gründerparken i Os sentrum der vi gjennomgår ulike temaer i plenum.</p>
+                    <p>Vi møter annenhver uke i Gründerparken i Os sentrum der vi gjennomgår ulike temaer i plenum.</p>
                 </div>
                 <div class="item">
                     <h4>Felles aktiviteter</h4>
