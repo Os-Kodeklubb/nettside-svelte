@@ -13,15 +13,15 @@
                           </p>
                 </div>
                 <div class="item">
-                    <h4>Sosiale aktiviteter</h4>
-                    <p>Os kodeklubb er et sosialt kodefellesskap. Vi arrangere ulike sosiale sammenkomster som julebord og sommeravslutning.</p>
-                </div>
-                <div class="item">
                     <h4>Nybegynnergrupper</h4>
                     <p>Vi er opptatt av å alltid ha en nybegynnergruppe hvis det er noen som ønsker å lære programmering.
                         De som er med i denne gruppen vil få god veiledning fra erfarne kodere som selv har vært nybegynnere.
                         Å lære sammen med andre og i et miljø med erfarne kodere vil være et godt utgangspunkt for å lære koding.
                     </p>
+                </div>
+                <div class="item">
+                    <h4>Sosiale aktiviteter</h4>
+                    <p>Os kodeklubb er et sosialt kodefellesskap. Vi arrangere ulike sosiale sammenkomster som julebord og sommeravslutning.</p>
                 </div>
                 <div class="item">
                     <h4>Andre</h4>
