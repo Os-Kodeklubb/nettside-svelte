@@ -13,7 +13,8 @@
                     <li>Over 18 år</li>
                     <li>Språkuavhengig</li>
                     <li>Design, frontend, backend, fullstack og sikkerhet</li>
-                    <li>Alt fra nybegynnere til erfarne utviklere. Fra selvlærte til skolerte kodere.</li>
+                    <li>Alt fra nybegynnere til erfarne utviklere.</li>
+                    <li>Fra selvlærte kodere til folk med mastergrad</li>
                 </ul>
 
                 <div class="cta-area">
