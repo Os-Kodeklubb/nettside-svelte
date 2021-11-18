@@ -10,11 +10,11 @@
                 <h3>Med fokus på læring</h3>
                 
                 <ul>
-                    <li>Over 18 år</li>
-                    <li>Språkuavhengig</li>
+                    <li>Kodespråkuavhengig</li>
                     <li>Design, frontend, backend, fullstack og sikkerhet</li>
-                    <li>Alt fra nybegynnere til erfarne utviklere.</li>
+                    <li>Alt fra nybegynnere til erfarne kodere</li>
                     <li>Fra selvlærte kodere til folk med mastergrad</li>
+                    <li>Over 18 år</li>
                 </ul>
 
                 <div class="cta-area">
@@ -44,7 +44,7 @@
             }
         }
         h1 {
-            font-size: 3rem;
+            font-size: 5rem;
             font-family: Recoleta, 'sans-serif';
             line-height: 1.25;
             margin: 0 0 30px 0;
@@ -64,6 +64,9 @@
                 -webkit-box-decoration-break: clone;
             }
         }
+      h3 {
+        font-size: 2rem;
+      }
         p {
             margin: 0 0 1rem 0;
         }

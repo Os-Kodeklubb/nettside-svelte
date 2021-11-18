@@ -7,16 +7,16 @@
                 <div class="item">
                     <h4>Kodeonsdag</h4>
                     <p>Vi har medlemsmøte annenhver onsdag i Bjørnafjorden Gründerpark i Os sentrum.
-                        Her deler medlemmene seg selv inn i grupper på 2-5 personer som setter opp sine egne læringsmål/prosjekter.
+                        Medlemmene blir delt inn i grupper på 2-5 personer som setter opp sine egne læringsmål/prosjekter.
                         Hvordan de ønsker å nå disse målene er opp til den enkelte gruppe.
                         Det er mulig å delta på medlemsmøte ved å melde seg på via facebook siden til klubben.
                           </p>
                 </div>
                 <div class="item">
                     <h4>Nybegynnergrupper</h4>
-                    <p>Vi er opptatt av å alltid ha en nybegynnergruppe hvis det er noen som ønsker å lære programmering.
+                    <p>Vi har nybegynnergruppe for de som ønsker å lære programmering.
                         De som er med i denne gruppen vil få god veiledning fra erfarne kodere som selv har vært nybegynnere.
-                        Å lære sammen med andre og i et miljø med erfarne kodere vil være et godt utgangspunkt for å lære koding.
+                        Å lære sammen med andre, og i et miljø med erfarne kodere, vil være et godt utgangspunkt for å lære koding.
                     </p>
                 </div>
                 <div class="item">
