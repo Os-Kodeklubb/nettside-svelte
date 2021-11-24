@@ -1,33 +1,42 @@
-<script context="module">
-  let name = "adrian";
-  let email = "en@test.com";
+<script>
+  let name = "Adrian";
+  let email = "adrian.saelen@test.com";
+  let message = "";
+  let error = "";
 
   const submitForm = async () => {
-    const submit = await fetch("/api/contact", {
-      method: "POST",
-      body: JSON.stringify({
-        name,
-        email
-      })
-    });
+    try {
+      const submit = await fetch("/api/kontakt", {
+        method: "POST",
+        body: JSON.stringify({
+          name,
+          email
+        })
+      });
 
-    const data = await submit.json()
-
-    console.log(data)
+      const data = await submit.json()
+      message = data
+    } catch (err) {
+      error = err
+    }
   }
-
-  $: console.log(name, email)
 </script>
 
 <section id="kontakt">
 	<div class="row">
 		<h2>Kontakt Oss</h2>
 
-    <form on:submit|preventDefault={submitForm}>
-        <input type="text" name="name" placeholder="Navn" bind:value={name} />
-        <input type="email" name="email" placeholder="Email" bind:value={email} />
-        <input type="submit">
-    </form>
+    {#if !message && !error}
+      <form on:submit|preventDefault={submitForm}>
+          <input type="text" name="name" placeholder="Navn" bind:value={name} />
+          <input type="text" name="email" placeholder="Email" bind:value={email} />
+          <input type="submit" />
+      </form>
+    {:else if message}
+      <p>Hei {message.name}, din melding ble sendt til Os Kodeklubb!</p>
+    {:else if error}
+      <p>Kontaktskjemaet feilet. Prøv igjen.</p>
+    {/if}
 	</div>
 </section>
 
