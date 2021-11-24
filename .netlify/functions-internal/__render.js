@@ -1,9 +1,26 @@
 var __create = Object.create;
 var __defProp = Object.defineProperty;
+var __defProps = Object.defineProperties;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
 var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getOwnPropSymbols = Object.getOwnPropertySymbols;
 var __getProtoOf = Object.getPrototypeOf;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __propIsEnum = Object.prototype.propertyIsEnumerable;
+var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
+var __spreadValues = (a, b) => {
+  for (var prop in b || (b = {}))
+    if (__hasOwnProp.call(b, prop))
+      __defNormalProp(a, prop, b[prop]);
+  if (__getOwnPropSymbols)
+    for (var prop of __getOwnPropSymbols(b)) {
+      if (__propIsEnum.call(b, prop))
+        __defNormalProp(a, prop, b[prop]);
+    }
+  return a;
+};
+var __spreadProps = (a, b) => __defProps(a, __getOwnPropDescs(b));
 var __markAsModule = (target) => __defProp(target, "__esModule", { value: true });
 var __export = (target, all) => {
   __markAsModule(target);
@@ -4728,7 +4745,7 @@ async function render_endpoint(request, route, match) {
     return;
   }
   const params = route.params(match);
-  const response = await handler2({ ...request, params });
+  const response = await handler2(__spreadProps(__spreadValues({}, request), { params }));
   const preface = `Invalid response from route ${request.path}`;
   if (!response) {
     return;
@@ -4745,7 +4762,7 @@ async function render_endpoint(request, route, match) {
   }
   let normalized_body;
   if ((typeof body === "object" || typeof body === "undefined") && !(body instanceof Uint8Array) && (!type || type.startsWith("application/json"))) {
-    headers = { ...headers, "content-type": "application/json; charset=utf-8" };
+    headers = __spreadProps(__spreadValues({}, headers), { "content-type": "application/json; charset=utf-8" });
     normalized_body = JSON.stringify(typeof body === "undefined" ? {} : body);
   } else {
     normalized_body = body;
@@ -5239,7 +5256,7 @@ function serialize_error(error2) {
   let serialized = try_serialize(error2);
   if (!serialized) {
     const { name, message, stack } = error2;
-    serialized = try_serialize({ ...error2, name, message, stack });
+    serialized = try_serialize(__spreadProps(__spreadValues({}, error2), { name, message, stack }));
   }
   if (!serialized) {
     serialized = "{}";
@@ -5330,7 +5347,7 @@ async function load_node({
           url = resource;
         } else {
           url = resource.url;
-          opts = {
+          opts = __spreadValues({
             method: resource.method,
             headers: resource.headers,
             body: resource.body,
@@ -5339,9 +5356,8 @@ async function load_node({
             cache: resource.cache,
             redirect: resource.redirect,
             referrer: resource.referrer,
-            integrity: resource.integrity,
-            ...opts
-          };
+            integrity: resource.integrity
+          }, opts);
         }
         const resolved = resolve(request.path, url.split("?")[0]);
         let response;
@@ -5355,9 +5371,7 @@ async function load_node({
           }) : await fetch(`http://${page.host}/${asset.file}`, opts);
         } else if (resolved.startsWith("/") && !resolved.startsWith("//")) {
           const relative = resolved;
-          const headers = {
-            ...opts.headers
-          };
+          const headers = __spreadValues({}, opts.headers);
           if (opts.credentials !== "omit") {
             uses_credentials = true;
             headers.cookie = request.headers.cookie;
@@ -5398,10 +5412,9 @@ async function load_node({
             const [server_hostname] = request.host.split(":");
             if (`.${fetch_hostname}`.endsWith(`.${server_hostname}`) && opts.credentials !== "omit") {
               uses_credentials = true;
-              opts.headers = {
-                ...opts.headers,
+              opts.headers = __spreadProps(__spreadValues({}, opts.headers), {
                 cookie: request.headers.cookie
-              };
+              });
             }
           }
           const external_request = new Request(url, opts);
@@ -5446,7 +5459,7 @@ async function load_node({
           status: 404
         });
       },
-      stuff: { ...stuff }
+      stuff: __spreadValues({}, stuff)
     };
     if (is_error) {
       load_input.status = status;
@@ -5597,14 +5610,13 @@ async function respond$1(opts) {
         let loaded;
         if (node) {
           try {
-            loaded = await load_node({
-              ...opts,
+            loaded = await load_node(__spreadProps(__spreadValues({}, opts), {
               node,
               stuff,
               prerender_enabled: is_prerender_enabled(options2, node, state),
               is_leaf: i === nodes.length - 1,
               is_error: false
-            });
+            }));
             if (!loaded)
               return;
             set_cookie_headers = set_cookie_headers.concat(loaded.set_cookie_headers);
@@ -5638,8 +5650,7 @@ async function respond$1(opts) {
                   j -= 1;
                 }
                 try {
-                  const error_loaded = await load_node({
-                    ...opts,
+                  const error_loaded = await load_node(__spreadProps(__spreadValues({}, opts), {
                     node: error_node,
                     stuff: node_loaded.stuff,
                     prerender_enabled: is_prerender_enabled(options2, error_node, state),
@@ -5647,7 +5658,7 @@ async function respond$1(opts) {
                     is_error: true,
                     status,
                     error: error2
-                  });
+                  }));
                   if (error_loaded.loaded.error) {
                     continue;
                   }
@@ -5672,29 +5683,24 @@ async function respond$1(opts) {
           }
         }
         if (loaded && loaded.loaded.stuff) {
-          stuff = {
-            ...stuff,
-            ...loaded.loaded.stuff
-          };
+          stuff = __spreadValues(__spreadValues({}, stuff), loaded.loaded.stuff);
         }
       }
     }
   try {
-    return with_cookies(await render_response({
-      ...opts,
+    return with_cookies(await render_response(__spreadProps(__spreadValues({}, opts), {
       page_config,
       status,
       error: error2,
       branch: branch.filter(Boolean)
-    }), set_cookie_headers);
+    })), set_cookie_headers);
   } catch (err) {
     const error3 = coalesce_to_error(err);
     options2.handle_error(error3, request);
-    return with_cookies(await respond_with_error({
-      ...opts,
+    return with_cookies(await respond_with_error(__spreadProps(__spreadValues({}, opts), {
       status: 500,
       error: error3
-    }), set_cookie_headers);
+    })), set_cookie_headers);
   }
 }
 function get_page_config(leaf, options2) {
@@ -5888,13 +5894,12 @@ async function respond(incoming, options2, state = {}) {
     }
   }
   const headers = lowercase_keys(incoming.headers);
-  const request = {
-    ...incoming,
+  const request = __spreadProps(__spreadValues({}, incoming), {
     headers,
     body: parse_body(incoming.rawBody, headers),
     params: {},
     locals: {}
-  };
+  });
   try {
     return await options2.hooks.handle({
       request,
@@ -6177,7 +6182,7 @@ function render(request, {
   prerender
 } = {}) {
   const host = request.headers["host"];
-  return respond({ ...request, host }, options, { prerender });
+  return respond(__spreadProps(__spreadValues({}, request), { host }), options, { prerender });
 }
 var logo = "/_app/assets/os-kodeklubb-logo-f14df01f.png";
 var css$4 = {
@@ -6331,21 +6336,18 @@ async function handler(event) {
       body: "Not found"
     };
   }
-  const partial_response = {
-    statusCode: rendered.status,
-    ...split_headers(rendered.headers)
-  };
+  const partial_response = __spreadValues({
+    statusCode: rendered.status
+  }, split_headers(rendered.headers));
   if (rendered.body instanceof Uint8Array) {
-    return {
-      ...partial_response,
+    return __spreadProps(__spreadValues({}, partial_response), {
       isBase64Encoded: true,
       body: Buffer.from(rendered.body).toString("base64")
-    };
+    });
   }
-  return {
-    ...partial_response,
+  return __spreadProps(__spreadValues({}, partial_response), {
     body: rendered.body
-  };
+  });
 }
 function split_headers(headers) {
   const h = {};
