@@ -33,7 +33,7 @@
           <input type="submit" />
       </form>
     {:else if message}
-      <p>Hei {message.name}, din melding ble sendt til Os Kodeklubb!</p>
+      <p>Hei <b>{message.name}</b>, din melding ble sendt til Os Kodeklubb!</p>
     {:else if error}
       <p>Kontaktskjemaet feilet. Prøv igjen.</p>
     {/if}
