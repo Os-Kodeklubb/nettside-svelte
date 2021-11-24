@@ -1,24 +1,32 @@
 <section class="explanation">
     <div class="row">
         <div class="box">
-            <h2>Formaal med Os Kodeklubb</h2>
-            <p>Her er et utvalg av aktiviteter og målsetninger vi har satt for vår forening:</p>
+            <h2>Aktiviteter i Os Kodeklubb</h2>
+            <p>Her er et utvalg av aktiviteter vi har satt for vår forening:</p>
             <div class="item-list">
                 <div class="item">
-                    <h4>Bi-ukentlige møter</h4>
-                    <p>Vi møtes annenhver uke i Gründerparken i Os sentrum der vi gjennomgår ulike temaer i plenum.</p>
+                    <h4>Kodeonsdag</h4>
+                    <p>Vi har medlemsmøte annenhver onsdag i Bjørnafjorden Gründerpark i Os sentrum.
+                        Medlemmene blir delt inn i grupper på 2-5 personer som setter opp sine egne læringsmål/prosjekter.
+                        Hvordan de ønsker å nå disse målene er opp til den enkelte gruppe.
+                        Det er mulig å delta på medlemsmøte ved å melde seg på via facebook siden til klubben.
+                          </p>
                 </div>
                 <div class="item">
-                    <h4>Planlagte kurs</h4>
-                    <p>Til ulike tider vil våre medlemmer avholde kurs i relevante tema - ment både for erfarne og nybegynnere.</p>
+                    <h4>Nybegynnergrupper</h4>
+                    <p>Vi har nybegynnergruppe for de som ønsker å lære programmering.
+                        De som er med i denne gruppen vil få god veiledning fra erfarne kodere som selv har vært nybegynnere.
+                        Å lære sammen med andre, og i et miljø med erfarne kodere, vil være et godt utgangspunkt for å lære koding.
+                    </p>
                 </div>
                 <div class="item">
-                    <h4>Felles prosjekter</h4>
-                    <p>Sammen arbeider vi for å utvikler ulike prosjekter, nettsider, programmer og annet som vi finner interessant.</p>
+                    <h4>Sosiale aktiviteter</h4>
+                    <p>Os kodeklubb er et sosialt kodefellesskap. Vi arrangere ulike sosiale sammenkomster som julebord og sommeravslutning.</p>
                 </div>
                 <div class="item">
-                    <h4>Junioravdeling</h4>
-                    <p>Arbeider med å opprette en kodeklubb for yngre og lærevillige kodeentusiaster</p>
+                    <h4>Andre</h4>
+                    <p>Det er opp til medlemmene i klubben hvilke andre aktiviteter klubben skal drive med.
+                        Vi oppfordrer medlemmene til å ta egne initiativ. </p>
                 </div>
             </div>
         </div>
