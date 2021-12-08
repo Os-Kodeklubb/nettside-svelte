@@ -5,7 +5,7 @@
 
 <section class="hero container">
 
-        <video width="100%" height="auto" autoplay loop preload>
+        <video width="100%" height="auto" autoplay loop muted>
             <source src="static/video/ForsideVideo.mp4" type="video/mp4">
         </video>
         <div class="TekstPåBilde">
@@ -44,7 +44,7 @@
         }
         h1 {
             font-size: 5rem;
-            font-family: Recoleta, 'sans-serif';
+            font-family: Arial, Recoleta, 'sans-serif';
             line-height: 1.25;
             margin: 0 0 30px 0;
             font-weight: 600;
