@@ -2,31 +2,27 @@
     import heroImage from '../../static/images/coding-image.jpg'
 </script>
 
-<section class="hero">
-    <div class="row">
-        <div class="two-wide">
-            <div class="holder-one">
-                <h1><span>Sosial</span> <mark>kodefelleskap</mark></h1>
-                <h3>Med fokus på læring</h3>
-                
-                <ul>
-                    <li>1Kodespråkuavhengig</li>
-                    <li>Design, frontend, backend, fullstack og sikkerhet</li>
-                    <li>Alt fra nybegynnere til erfarne kodere</li>
-                    <li>Fra selvlærte kodere til folk med mastergrad</li>
-                    <li>Over 18 år</li>
-                </ul>
 
-                <div class="cta-area">
-                    <a href="#" class="cta main">Kontakt</a>
-                    <a href="#" class="cta secondary">Hva vi gjør</a>
-                </div>
-            </div>
-            <div class="holder-two">
-                <img src={ heroImage } alt="some descriptive image" class="mask0">
-            </div>
+<section class="hero container">
+
+    <img src="static/images/Forside2c.png" type="image/png" width="100%" height="auto">
+    <div class="TekstPåBilde">
+        <h1>SOSIALT KODEFELLESSKAP</h1>
+        <ul>
+                <li>Fokus på å lære koding</li>
+                <li>Kodespråkuavhengig</li>
+                <li>Design, frontend, backend, fullstack og sikkerhet</li>
+                <li>Alt fra nybegynnere til erfarne kodere</li>
+                <li>Fra selvlærte kodere til folk med mastergrad</li>
+                <li>Over 18 år</li>
+        </ul>
+
+        <div class="cta-area">
+                        <a href="#" class="cta main">Kontakt</a>
+                        <a href="#" class="cta secondary">Hva vi gjør</a>
         </div>
     </div>
+
 </section>
 
 <style lang="scss">
@@ -34,6 +30,7 @@
         background: none;
         padding: 50px 0 100px 0;
         overflow: hidden;
+        position: relative;
         .two-wide {
             display: flex;
             .holder-one, .holder-two {
@@ -49,6 +46,7 @@
             line-height: 1.25;
             margin: 0 0 30px 0;
             font-weight: 600;
+            color: #da3654;;
             span {
                 width: 100%;
                 display: block;
@@ -65,10 +63,13 @@
             }
         }
       h3 {
-        font-size: 2rem;
+        font-size: 3.5rem;
+        color: #da3654;;
       }
         p {
             margin: 0 0 1rem 0;
+            color: white;
+
         }
         .cta-area {
             margin: 40px 0 0 0;
@@ -97,6 +98,7 @@
                 }
             }
         }
+
         .holder-two {
             position: relative;
             img {
@@ -113,5 +115,15 @@
                 }
             }
         }
+    }
+
+    .TekstPåBilde {
+      position: absolute;
+      top: 200px;
+      left: 150px;
+    }
+    li {
+      color: white;
+      font-size: 2rem;
     }
 </style>
