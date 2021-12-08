@@ -5,8 +5,10 @@
 
 <section class="hero container">
 
-    <video src="static/video/ForsideVideo.mp4" type="video/mp4" autoplay loop width="100%" height="auto">
-    <div class="TekstPåBilde">
+        <video width="100%" height="auto" autoplay loop preload>
+            <source src="static/video/ForsideVideo.mp4" type="video/mp4">
+        </video>
+        <div class="TekstPåBilde">
         <h1>SOSIALT KODEFELLESSKAP</h1>
         <ul>
                 <li>Fokus på å lære koding</li>
