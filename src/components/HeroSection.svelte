@@ -5,7 +5,7 @@
 
 <section class="hero container">
 
-    <img src="static/images/Forside2c.png" type="image/png" width="100%" height="auto">
+    <video src="static/video/ForsideVideo.mp4" type="video/mp4" autoplay loop width="100%" height="auto">
     <div class="TekstPåBilde">
         <h1>SOSIALT KODEFELLESSKAP</h1>
         <ul>
