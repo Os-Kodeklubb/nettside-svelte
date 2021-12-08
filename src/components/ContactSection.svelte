@@ -27,7 +27,7 @@
 		<h2>Kontakt Oss</h2>
 
     {#if !message && !error}
-      <form name="Kontaktskjema - Os Kodeklubb" netlify data-netlify="true" on:submit|preventDefault={submitForm}>
+      <form name="Kontaktskjema - Os Kodeklubb" class="kontaktskjema" netlify data-netlify="true" on:submit|preventDefault={submitForm}>
           <input type="text" name="name" placeholder="Navn" bind:value={name} />
           <input type="text" name="email" placeholder="Email" bind:value={email} />
           <input type="submit" />
@@ -44,6 +44,10 @@
 	#kontakt {
 		background: #fff;
 		padding: 60px 0;
+
+    .kontaktskjema {
+      background-color: blue;
+    }
         .row {
             max-width: 500px;
             margin: 0 auto;
