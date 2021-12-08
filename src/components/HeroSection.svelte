@@ -10,7 +10,7 @@
                 <h3>Med fokus på læring</h3>
                 
                 <ul>
-                    <li>1Kodespråkuavhengig</li>
+                    <li>Kodespråkuavhengig</li>
                     <li>Design, frontend, backend, fullstack og sikkerhet</li>
                     <li>Alt fra nybegynnere til erfarne kodere</li>
                     <li>Fra selvlærte kodere til folk med mastergrad</li>
