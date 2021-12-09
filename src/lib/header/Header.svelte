@@ -6,7 +6,7 @@
     <div class="row">
         <a href="/" class="logo">
             <img src={ logo } alt="Os Kodeklubb Logo">
-            <h4>Os Kodeklubb</h4>
+            <h2>Os Kodeklubb</h2>
         </a>
         <nav>
             <ul>
@@ -31,7 +31,7 @@
             align-items: center;
             text-decoration: none;
             img {
-                height: 40px;
+                height: 80px;
                 margin: 0 10px 0 0;
             }
             h4 {
@@ -42,12 +42,13 @@
             }
         }
         nav {
+            padding: 0px;
             ul {
                 display: flex;
                 list-style: none;
                 li {
                     a {
-                        padding: 15px;
+                        padding: 15px 15px 0px 15px;
                         text-decoration: none;
                         font-size: 15px;
                         color: #000;

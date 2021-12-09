@@ -30,7 +30,7 @@
 <style lang="scss">
     section {
         background: none;
-        padding: 50px 0 100px 0;
+        padding: 10px 0 50px 0;
         overflow: hidden;
         position: relative;
         .two-wide {
