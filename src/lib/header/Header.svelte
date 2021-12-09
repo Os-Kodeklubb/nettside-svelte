@@ -11,7 +11,7 @@
         <nav>
             <ul>
                 <li><a href="/om-oss">Om Oss</a></li>
-                <li><a href="/nyheter">Nyheter</a></li>
+                <li><a href="/nyheter">Aktiviteter</a></li>
                 <li><a href="/kontakt">Kontakt</a></li>
             </ul>
         </nav>
