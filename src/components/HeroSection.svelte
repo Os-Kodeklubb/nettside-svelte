@@ -125,7 +125,7 @@
     left: 150px;
   }
   li {
-    color: white;
+    color: black;
     font-size: 2rem;
   }
 </style>
