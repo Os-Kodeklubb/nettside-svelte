@@ -6,7 +6,7 @@
 <section class="hero container">
 
     <video width="100%" height="auto" autoplay loop muted>
-        <source src="video/ForsideVideoEndelig.mp4" type="video/mp4">
+        <source src="video/ForsideVideoEndeligxx.mp4" type="video/mp4">
     </video>
     <div class="TekstPåBilde">
         <h1>SOSIALT KODEFELLESSKAP</h1>
