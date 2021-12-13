@@ -37,9 +37,8 @@
     .explanation {
         .row {
             .box {
-                border-radius: 16px;
-                background: #f5f9fb;
-                padding: 4vw;
+                background: #a7a7a7;
+                padding: 10vw;
                 h2 {
                     color: #000;
                     font-family: Recoleta,sans-serif;

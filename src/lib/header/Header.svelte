@@ -42,15 +42,16 @@
             }
         }
         nav {
-            padding: 0px;
+            padding: 10px 0;
             ul {
                 display: flex;
                 list-style: none;
                 li {
                     a {
-                        padding: 15px 15px 0px 15px;
+                    
+                        padding: 0px 20px 0px 20px;
                         text-decoration: none;
-                        font-size: 15px;
+                        font-size: 1.25em;
                         color: #000;
                         &:hover {
                             color: #da3654;
