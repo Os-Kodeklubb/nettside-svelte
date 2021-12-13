@@ -1,11 +1,11 @@
 <script>
-	import logo from '../../../static/images/os-kodeklubb-logo.png';
+    import logo from "../../../static/images/os-kodeklubb-logo.png";
 </script>
 
 <header>
     <div class="row">
         <a href="/" class="logo">
-            <img src={ logo } alt="Os Kodeklubb Logo">
+            <img src={logo} alt="Os Kodeklubb Logo" />
             <h2 style="color: #da3654;">OS KODEKLUBB</h2>
         </a>
         <nav>
@@ -38,7 +38,7 @@
                 font-size: 1.25em;
                 margin: 0;
                 color: #000;
-                font-family: Poppins,sans-serif;
+                font-family: Poppins, sans-serif;
             }
         }
         nav {
@@ -48,7 +48,6 @@
                 list-style: none;
                 li {
                     a {
-                    
                         padding: 0px 20px 0px 20px;
                         text-decoration: none;
                         font-size: 1.25em;

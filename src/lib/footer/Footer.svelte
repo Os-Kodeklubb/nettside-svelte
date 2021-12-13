@@ -8,7 +8,9 @@
                 <a href="#">Kontakt oss</a>
             </div>
 
-            <p class="opphavsrett">© OsKodeklubb.no - Alle rettigheter forbeholdt.</p>
+            <p class="opphavsrett">
+                © OsKodeklubb.no - Alle rettigheter forbeholdt.
+            </p>
         </div>
     </div>
 </footer>
@@ -25,24 +27,23 @@
                 text-align: center;
                 h2 {
                     -webkit-text-fill-color: #0000;
-                    background: linear-gradient(
-                180deg,#feac0e,#da3654 70%);
+                    background: linear-gradient(180deg, #feac0e, #da3654 70%);
                     -webkit-background-clip: text;
                     font-size: 0.875em;
                     text-transform: uppercase;
-                    letter-spacing: .1em;
+                    letter-spacing: 0.1em;
                 }
                 h4 {
-                    font-family: Recoleta,sans-serif;
+                    font-family: Recoleta, sans-serif;
                     font-size: 2em;
                     margin: 1em 0 0 0;
                 }
                 p {
-                    opacity: .7;
+                    opacity: 0.7;
                 }
                 a {
                     background-color: #da3654;
-                    background: linear-gradient(90deg,#da3654 0,#eb5295);
+                    background: linear-gradient(90deg, #da3654 0, #eb5295);
                     color: #fff;
                     padding: 10px 30px;
                     display: inline-block;
@@ -60,7 +61,7 @@
                 }
                 .opphavsrett {
                     color: #ffffff80;
-                    font-size: .8125rem;
+                    font-size: 0.8125rem;
                     text-align: left;
                     opacity: 1;
                 }

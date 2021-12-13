@@ -6,27 +6,42 @@
             <div class="item-list">
                 <div class="item">
                     <h4>Kodeonsdag</h4>
-                    <p>Vi har medlemsmøte annenhver onsdag i Bjørnafjorden Gründerpark i Os sentrum.
-                        Medlemmene blir delt inn i grupper på 2-5 personer som setter opp sine egne læringsmål/prosjekter.
-                        Hvordan de ønsker å nå disse målene er opp til den enkelte gruppe.
-                        Det er mulig å delta på medlemsmøte ved å melde seg på via facebook siden til klubben.
-                          </p>
+                    <p>
+                        Vi har medlemsmøte annenhver onsdag i Bjørnafjorden
+                        Gründerpark i Os sentrum. Medlemmene blir delt inn i
+                        grupper på 2-5 personer som setter opp sine egne
+                        læringsmål/prosjekter. Hvordan de ønsker å nå disse
+                        målene er opp til den enkelte gruppe. Det er mulig å
+                        delta på medlemsmøte ved å melde seg på via facebook
+                        siden til klubben.
+                    </p>
                 </div>
                 <div class="item">
                     <h4>Nybegynnergrupper</h4>
-                    <p>Vi har nybegynnergruppe for de som ønsker å lære programmering.
-                        De som er med i denne gruppen vil få god veiledning fra erfarne kodere som selv har vært nybegynnere.
-                        Å lære sammen med andre, og i et miljø med erfarne kodere, vil være et godt utgangspunkt for å lære koding.
+                    <p>
+                        Vi har nybegynnergruppe for de som ønsker å lære
+                        programmering. De som er med i denne gruppen vil få god
+                        veiledning fra erfarne kodere som selv har vært
+                        nybegynnere. Å lære sammen med andre, og i et miljø med
+                        erfarne kodere, vil være et godt utgangspunkt for å lære
+                        koding.
                     </p>
                 </div>
                 <div class="item">
                     <h4>Sosiale aktiviteter</h4>
-                    <p>Os kodeklubb er et sosialt kodefellesskap. Vi arrangere ulike sosiale sammenkomster som julebord og sommeravslutning.</p>
+                    <p>
+                        Os kodeklubb er et sosialt kodefellesskap. Vi arrangere
+                        ulike sosiale sammenkomster som julebord og
+                        sommeravslutning.
+                    </p>
                 </div>
                 <div class="item">
                     <h4>Andre</h4>
-                    <p>Det er opp til medlemmene i klubben hvilke andre aktiviteter klubben skal drive med.
-                        Vi oppfordrer medlemmene til å ta egne initiativ. </p>
+                    <p>
+                        Det er opp til medlemmene i klubben hvilke andre
+                        aktiviteter klubben skal drive med. Vi oppfordrer
+                        medlemmene til å ta egne initiativ.
+                    </p>
                 </div>
             </div>
         </div>
@@ -41,7 +56,7 @@
                 padding: 10vw;
                 h2 {
                     color: #000;
-                    font-family: Recoleta,sans-serif;
+                    font-family: Recoleta, sans-serif;
                     padding: 0;
                     margin: 0 0 1.1625rem;
                     text-align: center;
@@ -62,7 +77,7 @@
                         width: calc(50% - 2vw);
                         h4 {
                             color: #000;
-                            font-family: Recoleta,sans-serif;
+                            font-family: Recoleta, sans-serif;
                             margin: 0 0 1rem 0;
                             font-size: 1.25em;
                             font-weight: 600;

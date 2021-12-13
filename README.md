@@ -5,6 +5,7 @@ Laget en enkel nettside for Os Kodeklubb, bygget på [SvelteKit](https://kit.sve
 Det er for tiden fortsatt i beta, men føles relativt stabilt etter en stund med bruk.
 
 Forskjellen mellom SvelteKit og Svelte ser hovedsakelig ut til å være at SvelteKit har:
+
 - SSR (server-side rendering)
 - Routing
 
