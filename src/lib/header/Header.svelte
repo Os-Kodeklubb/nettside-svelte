@@ -6,7 +6,7 @@
     <div class="row">
         <a href="/" class="logo">
             <img src={ logo } alt="Os Kodeklubb Logo">
-            <h2>Os Kodeklubb</h2>
+            <h2 style="color: #da3654;">OS KODEKLUBB</h2>
         </a>
         <nav>
             <ul>
