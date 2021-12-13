@@ -37,7 +37,7 @@
     .explanation {
         .row {
             .box {
-                background: #a7a7a7;
+                background: #e2e2e2;
                 padding: 10vw;
                 h2 {
                     color: #000;
