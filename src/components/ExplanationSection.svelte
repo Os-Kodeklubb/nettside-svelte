@@ -3,7 +3,8 @@
         <div class="box">
             <h2>Aktiviteter i Os Kodeklubb</h2>
             <p>Her er et utvalg av aktiviteter vi har satt for vår forening:</p>
-            <div class="item-list">
+        </div>
+        <div class="item-list">
                 <div class="item">
                     <h4>Kodeonsdag</h4>
                     <p>
@@ -44,55 +45,61 @@
                     </p>
                 </div>
             </div>
-        </div>
+
     </div>
 </section>
 
-<style lang="scss">
-    .explanation {
-        .row {
-            .box {
-                background: #e2e2e2;
-                padding: 10vw;
-                h2 {
-                    color: #000;
-                    font-family: Recoleta, sans-serif;
-                    padding: 0;
-                    margin: 0 0 1.1625rem;
-                    text-align: center;
-                }
-                p {
-                    font-size: 1.25em;
-                    color: #3c4856;
-                    margin: 2.325rem 0 1.1625rem 0;
-                    line-height: 1.8;
-                    text-align: center;
-                }
-                .item-list {
-                    display: flex;
-                    justify-content: space-between;
-                    flex-wrap: wrap;
-                    margin: 75px 0 0 0;
-                    .item {
-                        width: calc(50% - 2vw);
-                        h4 {
-                            color: #000;
-                            font-family: Recoleta, sans-serif;
-                            margin: 0 0 1rem 0;
-                            font-size: 1.25em;
-                            font-weight: 600;
-                            text-transform: uppercase;
-                        }
-                        p {
-                            color: #3c4856c2;
-                            font-size: 1em;
-                            line-height: 1.5;
-                            text-align: left;
-                            margin: 0.5rem 0 2.3625rem 0;
-                        }
-                    }
-                }
-            }
-        }
+<style lang="css">
+
+    .box {
+        background: #e2e2e2;
+        padding: 50px;
     }
+
+    .box h2 {
+        color: #000;
+        font-family: Arial, Recoleta, sans-serif;
+        padding: 0;
+        margin: 0 0 1.1625rem;
+        text-align: center;
+    }
+
+    .box p {
+        font-size: 1.25em;
+        color: #3c4856;
+        margin: 2.325rem 0 1.1625rem 0;
+        line-height: 1.8;
+        text-align: center;
+        font-family: Arial, Recoleta, sans-serif;
+    }
+
+    .item-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0;
+        background: #e2e2e2;
+        padding: 50px;
+    }
+
+    .item-list h4 {
+        color: #000;
+        font-family: Arial, Recoleta, sans-serif;
+        margin: 0 0 1rem 0;
+        font-size: 1.25em;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .item-list p {
+        color: #3c4856c2;
+        font-size: 1em;
+        line-height: 1.5;
+        text-align: left;
+        margin: 0.5rem 0 2.3625rem 0;
+    }
+
+    .item {
+        width: 300px;
+    }
+    
 </style>

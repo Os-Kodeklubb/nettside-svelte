@@ -28,7 +28,7 @@
 
 <style lang="scss">
   section {
-    background: none;
+    /*background: none;*/
     padding: 10px 0 50px 0;
     overflow: hidden;
     position: relative;
@@ -42,6 +42,7 @@
         padding: 0 1rem 0 0;
       }
     }
+
     h1 {
       font-size: 5rem;
       -webkit-text-stroke-width: 2px;
@@ -51,10 +52,14 @@
       margin: 0 0 30px 0;
       font-weight: 600;
       color: #da3654;
+      /*
       span {
         width: 100%;
         display: block;
       }
+
+       */
+
       mark {
         -webkit-text-fill-color: #0000;
         background: linear-gradient(180deg, #feac0e, #da3654 70%);
@@ -63,7 +68,11 @@
         background-image: linear-gradient(90deg, #f931c6 0, #dd6c68);
         -webkit-box-decoration-break: clone;
       }
+
+
+
     }
+
     h3 {
       font-size: 3.5rem;
       color: #da3654;
@@ -72,6 +81,7 @@
       margin: 0 0 1rem 0;
       color: white;
     }
+
     .cta-area {
       margin: 40px 0 0 0;
       .cta {
