@@ -99,7 +99,42 @@
     }
 
     .item {
-        width: 400px;
+        width: 500px;
+    }
+
+    @media only screen and (max-width: 576px) {
+        .item {
+            width: 200px;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .item {
+            width: 200px;
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        .item {
+            width: 200px;
+        }
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .item {
+            width: 400px;
+        }
+    }
+
+    @media only screen and (max-width: 1400px) {
+        .item {
+            width: 400px;
+        }
+    }
+    @media only screen and (min-width: 1401px) {
+        .item {
+            width: 500px;
+        }
     }
     
 </style>
