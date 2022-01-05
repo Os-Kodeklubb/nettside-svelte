@@ -99,7 +99,7 @@
     }
 
     .item {
-        width: 300px;
+        width: 400px;
     }
     
 </style>
