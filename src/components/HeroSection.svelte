@@ -10,7 +10,7 @@
   </video>
 
   <div class="TekstPåBilde">
-    <h1>SOSIALT KODEFELLESSKAP</h1>
+    <h1>KODEFELLESSKAP</h1>
     <ul>
       <li>Fokus på å lære koding</li>
       <li>Kodespråkuavhengig</li>
@@ -28,7 +28,7 @@
 
 <style lang="scss">
   section {
-    /*background: none;*/
+    background: none;
     padding: 10px 0 50px 0;
     overflow: hidden;
     position: relative;
@@ -43,36 +43,6 @@
       }
     }
 
-    h1 {
-      font-size: 5rem;
-      -webkit-text-stroke-width: 2px;
-      -webkit-text-stroke-color: #c72c49;
-      font-family: Arial, Recoleta, "sans-serif";
-      line-height: 1.25;
-      margin: 0 0 30px 0;
-      font-weight: 600;
-      color: #da3654;
-      /*
-      span {
-        width: 100%;
-        display: block;
-      }
-
-       */
-
-      mark {
-        -webkit-text-fill-color: #0000;
-        background: linear-gradient(180deg, #feac0e, #da3654 70%);
-        -webkit-background-clip: text;
-        background-clip: text;
-        background-image: linear-gradient(90deg, #f931c6 0, #dd6c68);
-        -webkit-box-decoration-break: clone;
-      }
-
-
-
-    }
-
     h3 {
       font-size: 3.5rem;
       color: #da3654;
@@ -83,7 +53,7 @@
     }
 
     .cta-area {
-      margin: 40px 0 0 0;
+      margin: 10px 0 0 0;
       .cta {
         background-color: #da3654;
         background: linear-gradient(90deg, #da3654 0, #eb5295);
@@ -185,4 +155,135 @@
     color: black;
     font-size: 2rem;
   }
+
+  h1 {
+    font-size: 5rem;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #c72c49;
+    font-family: Arial, Recoleta, "sans-serif";
+    line-height: 1.25;
+    margin: 0 0 30px 0;
+    font-weight: 600;
+    color: #da3654;
+
+    span {
+      width: 100%;
+      display: block;
+    }
+
+
+
+    mark {
+      -webkit-text-fill-color: #0000;
+      background: linear-gradient(180deg, #feac0e, #da3654 70%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      background-image: linear-gradient(90deg, #f931c6 0, #dd6c68);
+      -webkit-box-decoration-break: clone;
+    }
+  }
+
+
+  @media only screen and (max-width: 576px) {
+    .TekstPåBilde {
+      top: 30px;
+      left: 50px;
+    }
+
+    li {
+      font-size: 1rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 15px 0;
+      line-height: 0.75;
+    }
+  }
+
+  @media only screen and (min-width: 577px) and (max-width: 768px) {
+    .TekstPåBilde {
+      top: 30px;
+      left: 50px;
+    }
+
+    li {
+      font-size: 1rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 15px 0;
+      line-height: 0.75;
+    }
+
+
+
+  }
+
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+
+    .TekstPåBilde {
+      top: 120px;
+      left: 100px;
+    }
+
+    li {
+      font-size: 1.5rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin: 0 0 15px 0;
+      line-height: 0.75;
+    }
+
+  }
+
+  @media only screen and (min-width: 993px) and (max-width: 1200px) {
+
+    .TekstPåBilde {
+      top: 150px;
+      left: 100px;
+    }
+
+    li {
+      font-size: 1.5rem;
+    }
+    h1 {
+      font-size: 3rem;
+      margin: 0 0 15px 0;
+      line-height: 0.75;
+    }
+  }
+
+  @media only screen and (min-width: 1201px) and (max-width: 1400px) {
+    .TekstPåBilde {
+      top: 150px;
+      left: 100px;
+    }
+
+    li {
+      font-size: 2rem;
+    }
+    h1 {
+      font-size: 4rem;
+      margin: 0 0 15px 0;
+      line-height: 0.75;
+    }
+  }
+  @media only screen and (min-width: 1401px) {
+
+    .TekstPåBilde {
+      top: 150px;
+      left: 100px;
+    }
+
+    li {
+      font-size: 2rem;
+    }
+    h1 {
+      font-size: 5rem;
+      margin: 0 0 15px 0;
+      line-height: 0.75;
+    }
+  }
+
 </style>
