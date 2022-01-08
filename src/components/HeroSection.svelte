@@ -2,7 +2,7 @@
   import heroImage from "../../static/images/coding-image.jpg";
 </script>
 
-<section class="hero container">
+<section class="hero container" id="om-oss">
   <div class="gradient" />
 
   <video width="100%" height="auto" autoplay loop muted>
