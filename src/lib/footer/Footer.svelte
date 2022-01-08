@@ -5,7 +5,7 @@
                 <h2>Bli med i Os Kodeklubb!</h2>
                 <h4>Nysgjerrig på koding?</h4>
                 <p>Kontakt oss og bli med - ingen forkunnskaper nødvendig!</p>
-                <a href="#">Kontakt oss</a>
+                <p>telefon 908 62 611 eller post@oskodeklubb.no</p>
             </div>
 
             <p class="opphavsrett">
