@@ -102,38 +102,50 @@
         width: 500px;
     }
 
-    @media only screen and (max-width: 576px) {
+    @media only screen and (max-width: 767px) {
         .item {
-            width: 200px;
+            width: 500px;
         }
     }
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (min-width: 768px) {
         .item {
-            width: 200px;
+            width: 250px;
         }
     }
 
-    @media only screen and (max-width: 992px) {
+    @media only screen and (min-width: 924px) {
         .item {
-            width: 200px;
+            width: 300px;
         }
     }
 
-    @media only screen and (max-width: 1200px) {
+    @media only screen and (min-width: 1087px) {
+        .item {
+            width: 350px;
+        }
+    }
+
+    @media only screen and (min-width: 1200px) {
         .item {
             width: 400px;
         }
     }
 
-    @media only screen and (max-width: 1400px) {
+    @media only screen and (min-width: 1400px) {
         .item {
-            width: 400px;
+            width: 450px;
         }
     }
     @media only screen and (min-width: 1401px) {
         .item {
             width: 500px;
+        }
+    }
+
+    @media only screen and (min-width: 1740px) {
+        .item {
+            width: 600px;
         }
     }
     
