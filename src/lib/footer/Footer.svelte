@@ -1,4 +1,4 @@
-<footer>
+<footer id="kontakt">
     <div class="row">
         <div class="box">
             <div class="top">
@@ -12,7 +12,9 @@
                 © OsKodeklubb.no - Alle rettigheter forbeholdt.
             </p>
         </div>
+
     </div>
+
 </footer>
 
 <style lang="scss">

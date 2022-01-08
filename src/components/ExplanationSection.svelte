@@ -1,4 +1,4 @@
-<section class="explanation">
+<section class="explanation" id="aktiviteter">
     <div class="row">
         <div class="box">
             <h2>Aktiviteter i Os Kodeklubb</h2>

@@ -20,8 +20,8 @@
       <li>Over 18 år</li>
     </ul>
     <div class="cta-area">
-      <a href="#" class="cta main">Kontakt</a>
-      <a href="#" class="cta secondary">Hva vi gjør</a>
+      <a href="#kontakt" class="cta main">Kontakt</a>
+      <a href="#aktiviteter" class="cta secondary">aktiviteter</a>
     </div>
   </div>
 </section>
