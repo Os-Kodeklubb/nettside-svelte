@@ -6,6 +6,10 @@
     import ContactSection from "../components/ContactSection.svelte";
 </script>
 
+<svelte:head>
+  <title>Os Kodeklubb - Et samlested for kodeentusiaster i Bjørnefjorden</title>
+</svelte:head>
+
 <HeroSection />
 <AboutUsSection />
 <ExplanationSection />
