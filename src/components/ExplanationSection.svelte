@@ -59,7 +59,6 @@
     .box h2 {
         color: #000;
         font-family: Arial, Recoleta, sans-serif;
-        padding: 0;
         margin: 0 0 1.1625rem;
         text-align: center;
     }
@@ -85,7 +84,7 @@
     .item-list h4 {
         color: #000;
         font-family: Arial, Recoleta, sans-serif;
-        margin: 0 0 1rem 0;
+        /*margin: 0 0 1rem 0;*/
         font-size: 1.25em;
         font-weight: 600;
         text-transform: uppercase;
