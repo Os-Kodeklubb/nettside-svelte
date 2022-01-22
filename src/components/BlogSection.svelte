@@ -19,7 +19,7 @@
                     ferdigheter som gjør at man kan lære mye og utveksle
                     kompetanse.
                 </p>
-                <a href="#">Les mer</a>
+                <a href="#les-mer">Les mer</a>
             </div>
             <div class="blog-post">
                 <h4>Første prosjekt i gruppen settes i gang</h4>
@@ -28,7 +28,7 @@
                     bestemmes det i plenum at man starter med et felles prosjekt
                     for å utvikle en nettside for klubben vår.
                 </p>
-                <a href="#">Les mer</a>
+                <a href="#les-mer">Les mer</a>
             </div>
             <div class="blog-post">
                 <h4>Utkast til nettside lansert med React</h4>
@@ -38,7 +38,7 @@
                     installasjon og forklaring på hvordan rammeverket React
                     fungerer.
                 </p>
-                <a href="#">Les mer</a>
+                <a href="#les-mer">Les mer</a>
             </div>
         </div>
     </div>
