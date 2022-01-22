@@ -1,3 +1,7 @@
+<script context="module">
+	export const prerender = true;
+</script>
+
 <script>
   import { base, assets } from '$app/paths';
     let name = "Adrian";
