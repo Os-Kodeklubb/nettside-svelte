@@ -1,7 +1,3 @@
-<script>
-  import heroImage from "../../static/images/coding-image.jpg";
-</script>
-
 <section class="hero container">
   <div class="gradient" />
 
