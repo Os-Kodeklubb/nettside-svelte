@@ -27,18 +27,17 @@
       <div class="row">
           <h2>Kontakt Oss</h2>
 
-      {#if !message && !error}
-        <form name="Kontaktskjema - Os Kodeklubb" class="kontaktskjema" action="POST" data-netlify="true" on:submit|preventDefault={submitForm}>
-            <input type="text" name="name" placeholder="Navn" bind:value={name} />
-            <input type="text" name="email" placeholder="Email" bind:value={email} />
-            <input type="submit" />
-        </form>
-      {:else if message}
-        <p>Hei <b>{message.name}</b>, din melding ble sendt til Os Kodeklubb!</p>
-      {:else if error}
-        <p>Kontaktskjemaet feilet. Prøv igjen.</p>
-      {/if}
-      </div>
+          <form name="contact" netlify>
+            <p>
+              <label>Name <input type="text" name="name" /></label>
+            </p>
+            <p>
+              <label>Email <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
   </section>
 
   <style lang="scss">
