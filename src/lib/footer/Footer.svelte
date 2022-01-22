@@ -43,19 +43,6 @@
                 p {
                     opacity: 0.7;
                 }
-                a {
-                    background-color: #da3654;
-                    background: linear-gradient(90deg, #da3654 0, #eb5295);
-                    color: #fff;
-                    padding: 10px 30px;
-                    display: inline-block;
-                    text-decoration: none;
-                    margin: 30px 0 0 0;
-                }
-                a:hover {
-                    transform: scale(1.05);
-                    box-shadow: 0 9px 60px 0 #da365459;
-                }
                 .top {
                     margin: 0 0 50px 0;
                     padding: 0 0 75px 0;

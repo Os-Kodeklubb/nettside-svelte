@@ -16,13 +16,7 @@
   .box {
       padding: 70px;
   }
-  .item-list h4 {
-      color: #000;
-      font-family: Arial, Recoleta, sans-serif;
-      margin: 0 0 1rem 0;
-      font-size: 1.25em;
-      text-transform: uppercase;
-  }
+
   .item-list p {
       color: #3c4856c2;
       font-size: 1.5rem;
