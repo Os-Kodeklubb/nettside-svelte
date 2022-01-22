@@ -77,7 +77,7 @@
         // hamburger start
         @media screen and (max-width: $hamburger-menu-breakpoint) {
             .row {
-                flex-wrap: wrap-reverse;
+                flex-wrap: wrap;
             }
 
             nav {
