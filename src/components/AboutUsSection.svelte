@@ -2,7 +2,7 @@
   <div class="row">
     <div class="box item-list">
       <h2 class="item">Hva er Os Kodekubb?</h2>
-      <div style="border-left:1px solid #000;height:400px"></div>
+      <div class="xxx"></div>
       <p class="item">Os Kodeklubb er en klubb for de over 18 år med interesse for
         koding, og som søker et sosialt kodefellesskap. Klubben er åpen både for
         nybegynnere og erfarne kodere. På kodeonsdagene fokuserer vi på å lære
@@ -47,47 +47,84 @@
       .item {
           width: 500px;
       }
+
+    .xxx {
+      border-left:1px solid #000;
+      height:400px;
+      display: none;
+    }
   }
 
   @media only screen and (min-width: 768px) {
       .item {
           width: 250px;
       }
+
+    .xxx {
+      border-left:1px solid #000;
+      height:600px;
+
+    }
   }
 
   @media only screen and (min-width: 924px) {
       .item {
           width: 300px;
       }
+
+    .xxx {
+      border-left:1px solid #000;
+      height:500px;
+    }
   }
 
   @media only screen and (min-width: 1087px) {
       .item {
           width: 350px;
       }
+    .xxx {
+      border-left:1px solid #000;
+      height:400px;
+    }
   }
 
   @media only screen and (min-width: 1200px) {
       .item {
           width: 400px;
       }
+    .xxx {
+      border-left:1px solid #000;
+      height:400px;
+    }
   }
 
   @media only screen and (min-width: 1400px) {
       .item {
           width: 450px;
       }
+    .xxx {
+      border-left:1px solid #000;
+      height:300px;
+    }
   }
   @media only screen and (min-width: 1401px) {
       .item {
           width: 500px;
       }
+    .xxx {
+      border-left:1px solid #000;
+      height:300px;
+    }
   }
 
   @media only screen and (min-width: 1740px) {
       .item {
           width: 600px;
       }
+    .xxx {
+      border-left:1px solid #000;
+      height:300px;
+    }
   }
   
 </style>
