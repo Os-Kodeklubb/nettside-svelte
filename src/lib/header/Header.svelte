@@ -7,7 +7,6 @@
         toggleMenu = !toggleMenu;
         hideMenu = !hideMenu;
     }
-
 </script>
 
 <header>
@@ -16,9 +15,11 @@
             <img src={logo} alt="Os Kodeklubb Logo" />
             <h2 style="color: #da3654;">OS KODEKLUBB</h2>
         </a>
-        <nav on:click={handleClick}>
-            <div class="menu-button {toggleMenu ? '' : 'menu-button-x'}" />
-            <ul  class="{hideMenu ? 'menu-hide': ''}">
+        <nav>
+            <div class="menu-container" on:click={handleClick}>
+                <div class="menu-button {toggleMenu ? '' : 'menu-button-close'}" />
+            </div>
+            <ul class={hideMenu ? 'menu-hide' : ''}>
                 <li><a href="#om-oss">Om Oss</a></li>
                 <li><a href="#aktiviteter">Aktiviteter</a></li>
                 <li><a href="#kontakt">Kontakt</a></li>
@@ -28,50 +29,6 @@
 </header>
 
 <style lang="scss">
-    nav ul {
-        flex-direction:column ;
-    }
-    .menu-hide {
-        display: none;
-    }
-    nav {
-        display: flex;
-        justify-content: end;
-    }
-    .menu-button::before {
-        content: '';
-        margin-top: -8px;
-    }
-
-    .menu-button::after {
-        content: '';
-        margin-top: 8px;
-    }
-
-    .menu-button,
-    .menu-button::before,
-    .menu-button::after {
-        display: block;
-        background-color: #000;
-        position: absolute;
-        height: 4px;
-        width: 30px;
-        transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
-        border-radius: 2px;
-    }
-
-    .menu-button-x::after {
-        margin-top: 0px;
-        transform: rotate(-405deg);
-    }
-    .menu-button-x::before {
-        margin-top: 0px;
-        transform: rotate(405deg);
-    }
-    .menu-button-x {
-        background: rgba(255, 255, 255, 0);
-    }
-
     header {
         background: none;
         padding: 10px 0;
@@ -89,7 +46,6 @@
             }
         }
         nav {
-            padding: 10px 0;
             ul {
                 display: flex;
                 list-style: none;
@@ -106,5 +62,69 @@
                 }
             }
         }
+
+        // hamburger variables
+        $menu-width: 30px;
+        $menu-height: 4px;
+        $hamburger-margin-top-before: -8px;
+        $hamburger-margin-top-after: 8px;
+        // hamburger start
+        nav {
+            display: flex;
+            justify-content: end;
+            flex-direction: row-reverse;
+
+            .menu-hide {
+                display: none;
+            }
+
+            ul {
+                flex-direction: column;
+            }
+
+            .menu-container {
+                height: 20px;
+                width: $menu-width;
+                .menu-button {
+                    margin-top: 8px;
+                }
+
+                .menu-button,
+                .menu-button::before,
+                .menu-button::after {
+                    display: block;
+                    background-color: #000;
+                    position: absolute;
+                    height: $menu-height;
+                    width: $menu-width;
+                    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+                    border-radius: 2px;
+                }
+
+                .menu-button::before {
+                    content: '';
+                    margin-top: $hamburger-margin-top-before;
+                }
+
+                .menu-button::after {
+                    content: '';
+                    margin-top: $hamburger-margin-top-after;
+                }
+
+                .menu-button-close::after {
+                    margin-top: 0px;
+                    transform: rotate(-405deg);
+                }
+
+                .menu-button-close::before {
+                    margin-top: 0px;
+                    transform: rotate(405deg);
+                }
+                .menu-button-close {
+                    background: rgba(255, 255, 255, 0);
+                }
+            }
+        }
+        // hamburger end
     }
 </style>
