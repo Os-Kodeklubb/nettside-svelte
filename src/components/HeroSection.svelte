@@ -28,25 +28,6 @@
     padding: 10px 0 50px 0;
     overflow: hidden;
     position: relative;
-    .two-wide {
-      display: flex;
-      .holder-one,
-      .holder-two {
-        width: 50%;
-      }
-      .holder-one {
-        padding: 0 1rem 0 0;
-      }
-    }
-
-    h3 {
-      font-size: 3.5rem;
-      color: #da3654;
-    }
-    p {
-      margin: 0 0 1rem 0;
-      color: white;
-    }
 
     .cta-area {
       margin: 10px 0 0 0;
@@ -91,55 +72,6 @@
       );
       opacity: 0.75;
     }
-
-    .holder-two {
-      position: relative;
-      img {
-        width: 140%;
-        mask-image: linear-gradient(
-          to right,
-          transparent 5%,
-          #fff 33%,
-          #fff 100%,
-          transparent 100%
-        );
-        -webkit-mask-image: linear-gradient(
-          to right,
-          transparent 5%,
-          #fff 33%,
-          #fff 100%,
-          transparent 100%
-        );
-        &.mask1 {
-          mask-image: linear-gradient(
-            to top,
-            transparent 1%,
-            #fff 3%,
-            #fff 97%,
-            transparent 99%
-          );
-          -webkit-mask-image: linear-gradient(
-            to top,
-            transparent 1%,
-            #fff 3%,
-            #fff 97%,
-            transparent 99%
-          );
-        }
-        &.mask2 {
-          mask-image: radial-gradient(
-            ellipse 90% 80% at 48% 78%,
-            black 40%,
-            transparent 50%
-          );
-          -webkit-mask-image: radial-gradient(
-            ellipse 90% 80% at 48% 78%,
-            black 40%,
-            transparent 50%
-          );
-        }
-      }
-    }
   }
 
   .text-on-image {
@@ -162,21 +94,6 @@
     font-weight: 600;
     color: #da3654;
 
-    span {
-      width: 100%;
-      display: block;
-    }
-
-
-
-    mark {
-      -webkit-text-fill-color: #0000;
-      background: linear-gradient(180deg, #feac0e, #da3654 70%);
-      -webkit-background-clip: text;
-      background-clip: text;
-      background-image: linear-gradient(90deg, #f931c6 0, #dd6c68);
-      -webkit-box-decoration-break: clone;
-    }
   }
 
 
@@ -235,8 +152,6 @@
       margin: 0 0 15px 0;
       line-height: 0.75;
     }
-
-
 
   }
 
