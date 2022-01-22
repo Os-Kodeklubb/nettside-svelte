@@ -1,7 +1,7 @@
 <script lang="ts">
-    import logo from '../../../static/images/os-kodeklubb-logo.png';
+    import logo from "images/os-kodeklubb-logo.png";
     let toggleMenu: boolean = true;
-    let hideMenu = true;
+    let hideMenu: boolean = true;
 
     function handleClick() {
         toggleMenu = !toggleMenu;

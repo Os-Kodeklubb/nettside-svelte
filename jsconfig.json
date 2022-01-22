@@ -5,9 +5,9 @@
 			"$lib": [
 				"src/lib"
 			],
-			"$lib/*": [
-				"src/lib/*"
-			]
+			"$static": [
+				"static"
+			],
 		}
 	},
 	"include": [
