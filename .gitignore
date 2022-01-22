@@ -3,3 +3,5 @@ node_modules
 /build
 /.svelte-kit
 /package
+.idea/jsLibraryMappings.xml
+.idea/inspectionProfiles/Project_Default.xml

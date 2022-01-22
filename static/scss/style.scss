@@ -1,52 +1,75 @@
+:root {
+  --primary: #37ffab;
+  --secondary: #37ffab;
+}
+
+html {
+  scroll-behavior: smooth;
+  // Example for use of global var for css
+  // background-color: var(--primary, #fff);
+}
+
 body {
-    margin: 0;
-    -webkit-text-size-adjust: 100%;
-    font: 100%/1.55 Poppins, sans-serif;
-    box-sizing: border-box;
-    overflow-y: scroll;
+  margin: 0;
+  -webkit-text-size-adjust: 100%;
+  font: 100%/1.55 Poppins, sans-serif;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: rgba(245, 245, 245, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #43485c;
 }
 
 @font-face {
-    font-family: Recoleta;
-    src: url(../static/fonts/Recoleta-Regular.ttf);
+  font-family: Recoleta;
+  src: url(../static/fonts/Recoleta-Regular.ttf);
 }
 
 @font-face {
-    font-family: Recoleta;
-    src: url(../static/fonts/Recoleta-SemiBold.ttf);
-    font-weight: 600;
+  font-family: Recoleta;
+  src: url(../static/fonts/Recoleta-SemiBold.ttf);
+  font-weight: 600;
 }
 
 @font-face {
-    font-family: Recoleta;
-    src: url(../static/fonts/Recoleta-Bold.ttf);
-    font-weight: bold;
+  font-family: Recoleta;
+  src: url(../static/fonts/Recoleta-Bold.ttf);
+  font-weight: bold;
 }
 
 @font-face {
-    font-family: Poppins;
-    src: url(../static/fonts/Poppins-Regular.ttf);
+  font-family: Poppins;
+  src: url(../static/fonts/Poppins-Regular.ttf);
 }
 
 @font-face {
-    font-family: Poppins;
-    src: url(../static/fonts/Poppins-Bold.ttf);
-    font-weight: bold;
+  font-family: Poppins;
+  src: url(../static/fonts/Poppins-Bold.ttf);
+  font-weight: bold;
 }
 
 section.regular {
-    padding: 50px 0 100px 0;
-    .row {
-        h1 {
-            font-size: 3rem;
-            font-family: Recoleta, 'sans-serif';
-            line-height: 1.25;
-            margin: 0 0 30px 0;
-            font-weight: 600;
-        }
+  padding: 50px 0 100px 0;
+
+  .row {
+    h1 {
+      font-size: 3rem;
+      font-family: Recoleta, 'sans-serif';
+      line-height: 1.25;
+      margin: 0 0 30px 0;
+      font-weight: 600;
     }
+  }
 }
 
 .row {
-    padding: 0 4vw;
+  padding: 0 4vw;
 }
