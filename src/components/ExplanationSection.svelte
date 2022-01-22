@@ -49,7 +49,7 @@
     </div>
 </section>
 
-<style lang="css">
+<style lang="scss">
 
     .box {
         background: #e2e2e2;
@@ -105,6 +105,19 @@
         .item {
             width: 500px;
         }
+        .explanation {
+
+            .row {
+
+                .box {
+                    padding-bottom: 1px;
+                }
+
+                .item-list {
+                    padding-top: 0px;
+                }
+            }
+        }
     }
 
     @media only screen and (min-width: 768px) {
@@ -147,5 +160,5 @@
             width: 600px;
         }
     }
-    
+
 </style>
