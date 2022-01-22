@@ -1,5 +1,5 @@
 <script lang="ts">
-    import logo from '../../../static/images/os-kodeklubb-logo.png';
+    import logo from '/images/os-kodeklubb-logo.png';
     let toggleMenu: boolean = true;
     let hideMenu = true;
 
@@ -86,12 +86,6 @@
             img {
                 height: 80px;
                 margin: 0 10px 0 0;
-            }
-            h4 {
-                font-size: 1.25em;
-                margin: 0;
-                color: #000;
-                font-family: Poppins, sans-serif;
             }
         }
         nav {
