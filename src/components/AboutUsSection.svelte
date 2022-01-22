@@ -2,7 +2,7 @@
   <div class="row">
     <div class="box item-list">
       <h2 class="item">Hva er Os Kodekubb?</h2>
-      <div class="xxx"></div>
+      <div class="divider"></div>
       <p class="item">Os Kodeklubb er en klubb for de over 18 år med interesse for
         koding, og som søker et sosialt kodefellesskap. Klubben er åpen både for
         nybegynnere og erfarne kodere. På kodeonsdagene fokuserer vi på å lære
@@ -48,7 +48,7 @@
           width: 500px;
       }
 
-    .xxx {
+    .divider {
       border-left:1px solid #000;
       height:400px;
       display: none;
@@ -60,7 +60,7 @@
           width: 250px;
       }
 
-    .xxx {
+    .divider {
       border-left:1px solid #000;
       height:600px;
 
@@ -72,7 +72,7 @@
           width: 300px;
       }
 
-    .xxx {
+    .divider {
       border-left:1px solid #000;
       height:500px;
     }
@@ -82,7 +82,7 @@
       .item {
           width: 350px;
       }
-    .xxx {
+    .divider {
       border-left:1px solid #000;
       height:400px;
     }
@@ -92,7 +92,7 @@
       .item {
           width: 400px;
       }
-    .xxx {
+    .divider {
       border-left:1px solid #000;
       height:400px;
     }
@@ -102,7 +102,7 @@
       .item {
           width: 450px;
       }
-    .xxx {
+    .divider {
       border-left:1px solid #000;
       height:300px;
     }
@@ -111,7 +111,7 @@
       .item {
           width: 500px;
       }
-    .xxx {
+    .divider {
       border-left:1px solid #000;
       height:300px;
     }
@@ -121,10 +121,10 @@
       .item {
           width: 600px;
       }
-    .xxx {
+    .divider {
       border-left:1px solid #000;
       height:300px;
     }
   }
-  
+
 </style>
