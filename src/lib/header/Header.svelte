@@ -1,5 +1,5 @@
 <script lang="ts">
-    import logo from "images/os-kodeklubb-logo.png";
+    import logo from "$static/images/os-kodeklubb-logo.png";
     let toggleMenu: boolean = true;
     let hideMenu: boolean = true;
 
