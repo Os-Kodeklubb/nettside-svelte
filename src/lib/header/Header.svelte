@@ -47,6 +47,7 @@
         }
         nav {
             ul {
+                padding-left: 0px;
                 display: flex;
                 list-style: none;
                 li {
@@ -66,62 +67,73 @@
         // hamburger variables
         $menu-width: 30px;
         $menu-height: 4px;
+        $hamburger-margin-top-reset: 0px;
         $hamburger-margin-top-before: -8px;
         $hamburger-margin-top-after: 8px;
+        $hamburger-margin-top: 8px;
+
+        // hamburger variables media queries
+        $hamburger-menu-breakpoint: 787px;
         // hamburger start
-        nav {
-            display: flex;
-            justify-content: end;
-            flex-direction: row-reverse;
-
-            .menu-hide {
-                display: none;
+        @media screen and (max-width: $hamburger-menu-breakpoint) {
+            .row {
+                flex-wrap: wrap-reverse;
             }
 
-            ul {
-                flex-direction: column;
-            }
+            nav {
+                margin-top: 1em;
+                display: flex;
+                flex-direction: row-reverse;
 
-            .menu-container {
-                height: 20px;
-                width: $menu-width;
-                .menu-button {
-                    margin-top: 8px;
+                .menu-hide {
+                    display: none;
                 }
 
-                .menu-button,
-                .menu-button::before,
-                .menu-button::after {
-                    display: block;
-                    background-color: #000;
-                    position: absolute;
-                    height: $menu-height;
+                ul {
+                    flex-direction: column;
+                }
+
+                .menu-container {
+                    height: 20px;
                     width: $menu-width;
-                    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
-                    border-radius: 2px;
-                }
+                    .menu-button {
+                        margin-top: $hamburger-margin-top;
+                    }
 
-                .menu-button::before {
-                    content: '';
-                    margin-top: $hamburger-margin-top-before;
-                }
+                    .menu-button,
+                    .menu-button::before,
+                    .menu-button::after {
+                        display: block;
+                        background-color: #000;
+                        position: absolute;
+                        height: $menu-height;
+                        width: $menu-width;
+                        transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+                        border-radius: 2px;
+                    }
 
-                .menu-button::after {
-                    content: '';
-                    margin-top: $hamburger-margin-top-after;
-                }
+                    .menu-button::before {
+                        content: '';
+                        margin-top: $hamburger-margin-top-before;
+                    }
 
-                .menu-button-close::after {
-                    margin-top: 0px;
-                    transform: rotate(-405deg);
-                }
+                    .menu-button::after {
+                        content: '';
+                        margin-top: $hamburger-margin-top-after;
+                    }
 
-                .menu-button-close::before {
-                    margin-top: 0px;
-                    transform: rotate(405deg);
-                }
-                .menu-button-close {
-                    background: rgba(255, 255, 255, 0);
+                    .menu-button-close::after {
+                        margin-top: $hamburger-margin-top-reset;
+                        transform: rotate(-405deg);
+                    }
+
+                    .menu-button-close::before {
+                        margin-top: $hamburger-margin-top-reset;
+                        transform: rotate(405deg);
+                    }
+                    .menu-button-close {
+                        background: rgba(255, 255, 255, 0);
+                    }
                 }
             }
         }
