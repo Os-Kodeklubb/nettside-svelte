@@ -9,7 +9,7 @@
     <source src="video/ForsideVideoEndelig.mp4" type="video/mp4" />
   </video>
 
-  <div class="TekstPåBilde">
+  <div class="text-on-image">
     <h1>KODEFELLESSKAP</h1>
     <ul>
       <li>Fokus på å lære koding</li>
@@ -146,7 +146,7 @@
     }
   }
 
-  .TekstPåBilde {
+  .text-on-image {
     position: absolute;
     top: 200px;
     left: 150px;
@@ -184,8 +184,33 @@
   }
 
 
+  @media only screen and (max-width: 488px) {
+    section {
+      video {
+        display: none;
+      }
+      .text-on-image {
+        position: unset;
+        h1 {
+          text-align: center;
+          overflow-wrap: break-word;
+        }
+
+        .cta-area {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          gap: 0.5em;
+        }
+      }
+
+      .gradient {
+        display: none;
+      }
+    }
+  }
   @media only screen and (max-width: 576px) {
-    .TekstPåBilde {
+    .text-on-image {
       top: 30px;
       left: 50px;
     }
@@ -201,7 +226,7 @@
   }
 
   @media only screen and (min-width: 577px) and (max-width: 768px) {
-    .TekstPåBilde {
+    .text-on-image {
       top: 30px;
       left: 50px;
     }
@@ -221,7 +246,7 @@
 
   @media only screen and (min-width: 769px) and (max-width: 992px) {
 
-    .TekstPåBilde {
+    .text-on-image {
       top: 120px;
       left: 100px;
     }
@@ -239,7 +264,7 @@
 
   @media only screen and (min-width: 993px) and (max-width: 1200px) {
 
-    .TekstPåBilde {
+    .text-on-image {
       top: 150px;
       left: 100px;
     }
@@ -255,7 +280,7 @@
   }
 
   @media only screen and (min-width: 1201px) and (max-width: 1400px) {
-    .TekstPåBilde {
+    .text-on-image {
       top: 150px;
       left: 100px;
     }
@@ -271,7 +296,7 @@
   }
   @media only screen and (min-width: 1401px) {
 
-    .TekstPåBilde {
+    .text-on-image {
       top: 150px;
       left: 100px;
     }
