@@ -9,7 +9,7 @@
     "devDependencies": {
         "@sveltejs/adapter-netlify": "^1.0.0-next.35",
         "@sveltejs/kit": "next",
-        "@tsconfig/svelte": "^2.0.1",
+        "@tsconfig/svelte": "^3.0.0",
         "esbuild": "^0.14.13",
         "sass": "^1.49.0",
         "stream": "^0.0.2",
