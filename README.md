@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d77833a0-24ec-4441-a844-fbde7ec3b3da/deploy-status)](https://app.netlify.com/sites/quirky-wozniak-f0b238/deploys)
 # Nettside til Os Kodeklubb
 
 Laget en enkel nettside for Os Kodeklubb, bygget på [SvelteKit](https://kit.svelte.dev/)
