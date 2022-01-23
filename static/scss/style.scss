@@ -3,10 +3,38 @@
   --secondary: #37ffab;
 }
 
+@font-face {
+  font-family: Recoleta;
+  src: url(/static/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: Recoleta;
+  src: url(/static/fonts/Recoleta-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Recoleta;
+  src: url(/static/fonts/Recoleta-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(/static/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(/static/fonts/Poppins-Bold.ttf);
+  font-weight: bold;
+}
+
 html {
   scroll-behavior: smooth;
-  // Example for use of global var for css
-  // background-color: var(--primary, #fff);
+  scrollbar-color:#43485c transparent;
+  scrollbar-width: thin;
 }
 
 body {
@@ -28,33 +56,6 @@ body {
   background-color: #43485c;
 }
 
-@font-face {
-  font-family: Recoleta;
-  src: url(../static/fonts/Recoleta-Regular.ttf);
-}
-
-@font-face {
-  font-family: Recoleta;
-  src: url(../static/fonts/Recoleta-SemiBold.ttf);
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: Recoleta;
-  src: url(../static/fonts/Recoleta-Bold.ttf);
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: Poppins;
-  src: url(../static/fonts/Poppins-Regular.ttf);
-}
-
-@font-face {
-  font-family: Poppins;
-  src: url(../static/fonts/Poppins-Bold.ttf);
-  font-weight: bold;
-}
 
 section.regular {
   padding: 50px 0 100px 0;
