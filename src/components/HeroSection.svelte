@@ -124,15 +124,15 @@
   }
   @media only screen and (max-width: 576px) {
     .text-on-image {
-      top: 30px;
+      top: 50px;
       left: 50px;
     }
 
     li {
-      font-size: 1rem;
+      font-size: 0.5rem;
     }
     h1 {
-      font-size: 2rem;
+      font-size: 1.5rem;
       margin: 0 0 15px 0;
       line-height: 0.75;
     }
@@ -140,7 +140,7 @@
 
   @media only screen and (min-width: 577px) and (max-width: 768px) {
     .text-on-image {
-      top: 30px;
+      top: 70px;
       left: 50px;
     }
 
@@ -158,7 +158,7 @@
   @media only screen and (min-width: 769px) and (max-width: 992px) {
 
     .text-on-image {
-      top: 120px;
+      top: 70px;
       left: 100px;
     }
 
