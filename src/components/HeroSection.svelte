@@ -4,7 +4,7 @@
   <video width="100%" height="auto" autoplay loop muted>
     <source src="video/ForsideVideoEndelig.mp4" type="video/mp4" />
   </video>
-
+    
   <div class="text-on-image">
     <h1>KODEFELLESSKAP</h1>
     <ul>
@@ -32,9 +32,9 @@
     .cta-area {
       margin: 10px 0 0 0;
       .cta {
-        background-color: #da3654;
-        background: linear-gradient(90deg, #da3654 0, #eb5295);
-        color: #fff;
+        background-color: var(--primary-color);
+        background: linear-gradient(90deg, var(--secondary-color), 0, var(--primary-color));
+        color: black;
         border-radius: 25px;
         padding: 10px 30px;
         display: inline-block;
@@ -86,13 +86,11 @@
 
   h1 {
     font-size: 5rem;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #c72c49;
     font-family: Arial, Recoleta, "sans-serif";
     line-height: 1.25;
     margin: 0 0 30px 0;
     font-weight: 600;
-    color: #da3654;
+    color: black;
 
   }
 

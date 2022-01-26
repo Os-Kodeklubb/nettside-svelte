@@ -29,7 +29,7 @@
                 text-align: center;
                 h2 {
                     -webkit-text-fill-color: #0000;
-                    background: linear-gradient(180deg, #feac0e, #da3654 70%);
+                    background-color: var(--primary-color);
                     -webkit-background-clip: text;
                     font-size: 0.875em;
                     text-transform: uppercase;

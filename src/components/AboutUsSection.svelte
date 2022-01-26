@@ -1,9 +1,9 @@
 <section class="explanation" id="om-oss">
   <div class="row">
     <div class="box item-list">
-      <h2 class="item">Hva er Os Kodekubb?</h2>
+      <h2 class="item" style="font-size: 70px; color: var(--secondary-color)">Hva er Os Kodekubb?</h2>
       <div class="divider"></div>
-      <p class="item">Os Kodeklubb er en klubb for de over 18 år med interesse for
+      <p class="item" style="margin-top:auto; margin-bottom:auto;">Os Kodeklubb er en klubb for de over 18 år med interesse for
         koding, og som søker et sosialt kodefellesskap. Klubben er åpen både for
         nybegynnere og erfarne kodere. På kodeonsdagene fokuserer vi på å lære
         koding eller lære mer koding. </p>
@@ -30,7 +30,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0;
-
+    align-items: center;
   }
 
   .item {

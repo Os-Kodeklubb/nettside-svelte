@@ -1,5 +1,5 @@
 <script lang="ts">
-    import logo from "$static/images/os-kodeklubb-logo.png";
+    import logo from "$static/images/logo-placeholder.png";
     let toggleMenu: boolean = true;
     let hideMenu: boolean = true;
 
@@ -13,7 +13,7 @@
     <div class="row">
         <a href="/" class="logo">
             <img src={logo} alt="Os Kodeklubb Logo" />
-            <h2 style="color: #da3654;">OS KODEKLUBB</h2>
+            <h2>OS KODEKLUBB</h2>
         </a>
         <nav>
             <div class="menu-container" on:click={handleClick}>
@@ -35,6 +35,7 @@
         .row {
             display: flex;
             justify-content: space-between;
+            align-items: center;
         }
         .logo {
             display: flex;
@@ -45,6 +46,11 @@
                 margin: 0 10px 0 0;
             }
         }
+        a {
+            h2 {
+                color: var(--secondary-color);
+            }
+        }	
         nav {
             ul {
                 padding-left: 0px;
