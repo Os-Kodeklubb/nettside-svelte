@@ -6,7 +6,10 @@
   </video>
 
   <div class="text-on-image">
-    <h1>KODEFELLESSKAP</h1>
+    <div style="width: fit-content;">
+      <h1>KODEFELLESSKAP</h1>
+      <hr style="border: 1px solid black;" />
+    </div>
     <ul>
       <li>Fokus på å lære koding</li>
       <li>Kodespråkuavhengig</li>
@@ -17,7 +20,7 @@
     </ul>
     <div class="cta-area">
       <a href="#kontakt" class="cta main">Kontakt</a>
-      <a href="#aktiviteter" class="cta secondary">aktiviteter</a>
+      <a href="#aktiviteter" class="cta secondary">Aktiviteter</a>
     </div>
   </div>
 </section>
@@ -32,9 +35,14 @@
     .cta-area {
       margin: 10px 0 0 0;
       .cta {
-        background-color: #da3654;
-        background: linear-gradient(90deg, #da3654 0, #eb5295);
-        color: #fff;
+        background-color: var(--primary-color);
+        background: linear-gradient(
+          90deg,
+          var(--secondary-color),
+          0,
+          var(--primary-color)
+        );
+        color: black;
         border-radius: 25px;
         padding: 10px 30px;
         display: inline-block;
@@ -42,16 +50,20 @@
         &.main {
           margin: 0 10px 0 0;
           transition: all 0.3s cubic-bezier(0, 0.89, 0.44, 1);
+          transition: all 0.2s ease-in-out;
           &:hover {
-            box-shadow: 0 9px 60px 0 #da365459;
+            transform: scale(1.1);
+            box-shadow: 0 9px 60px 0 #0d5d2c59;
           }
         }
         &.secondary {
           background: #eee;
           color: #000;
           transition: all 0.3s cubic-bezier(0, 0.89, 0.44, 1);
+          transition: all 0.2s ease-in-out;
           &:hover {
-            box-shadow: 0 9px 60px 0 #da365459;
+            transform: scale(1.1);
+            box-shadow: 0 9px 60px 0 #0d5d2c59;
           }
         }
       }
@@ -86,16 +98,12 @@
 
   h1 {
     font-size: 5rem;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #c72c49;
     font-family: Arial, Recoleta, "sans-serif";
     line-height: 1.25;
     margin: 0 0 30px 0;
     font-weight: 600;
-    color: #da3654;
-
+    color: black;
   }
-
 
   @media only screen and (max-width: 488px) {
     section {
@@ -152,11 +160,9 @@
       margin: 0 0 15px 0;
       line-height: 0.75;
     }
-
   }
 
   @media only screen and (min-width: 769px) and (max-width: 992px) {
-
     .text-on-image {
       top: 70px;
       left: 100px;
@@ -170,11 +176,9 @@
       margin: 0 0 15px 0;
       line-height: 0.75;
     }
-
   }
 
   @media only screen and (min-width: 993px) and (max-width: 1200px) {
-
     .text-on-image {
       top: 150px;
       left: 100px;
@@ -206,7 +210,6 @@
     }
   }
   @media only screen and (min-width: 1401px) {
-
     .text-on-image {
       top: 150px;
       left: 100px;
@@ -221,5 +224,4 @@
       line-height: 0.75;
     }
   }
-
 </style>

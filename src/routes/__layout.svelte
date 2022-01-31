@@ -13,7 +13,5 @@
 
 <style lang="scss" global>
 	@import "../../static/scss/style.scss";
-
 	main {}
-	
 </style>

@@ -1,5 +1,5 @@
 <script lang="ts">
-    import logo from "$static/images/os-kodeklubb-logo.png";
+    import logo from "$static/images/logo-placeholder.png";
     let toggleMenu: boolean = true;
     let hideMenu: boolean = true;
 
@@ -13,13 +13,15 @@
     <div class="row">
         <a href="/" class="logo">
             <img src={logo} alt="Os Kodeklubb Logo" />
-            <h2 style="color: #da3654;">OS KODEKLUBB</h2>
+            <h2>OS KODEKLUBB</h2>
         </a>
         <nav>
             <div class="menu-container" on:click={handleClick}>
-                <div class="menu-button {toggleMenu ? '' : 'menu-button-close'}" />
+                <div
+                    class="menu-button {toggleMenu ? '' : 'menu-button-close'}"
+                />
             </div>
-            <ul class={hideMenu ? 'menu-hide' : ''}>
+            <ul class={hideMenu ? "menu-hide" : ""}>
                 <li><a href="#om-oss">Om Oss</a></li>
                 <li><a href="#aktiviteter">Aktiviteter</a></li>
                 <li><a href="#kontakt">Kontakt</a></li>
@@ -35,6 +37,7 @@
         .row {
             display: flex;
             justify-content: space-between;
+            align-items: center;
         }
         .logo {
             display: flex;
@@ -43,6 +46,11 @@
             img {
                 height: 80px;
                 margin: 0 10px 0 0;
+            }
+        }
+        a {
+            h2 {
+                color: var(--secondary-color);
             }
         }
         nav {
@@ -56,8 +64,11 @@
                         text-decoration: none;
                         font-size: 1.25em;
                         color: #000;
+                        transition: all 0.075s ease-in-out;
                         &:hover {
-                            color: #da3654;
+                            font-size: 1.3em;
+                            font-weight: 500;
+                            color: var(--secondary-color);
                         }
                     }
                 }
@@ -108,17 +119,18 @@
                         position: absolute;
                         height: $menu-height;
                         width: $menu-width;
-                        transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+                        transition: transform 400ms
+                            cubic-bezier(0.23, 1, 0.32, 1);
                         border-radius: 2px;
                     }
 
                     .menu-button::before {
-                        content: '';
+                        content: "";
                         margin-top: $hamburger-margin-top-before;
                     }
 
                     .menu-button::after {
-                        content: '';
+                        content: "";
                         margin-top: $hamburger-margin-top-after;
                     }
 
