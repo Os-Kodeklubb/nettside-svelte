@@ -18,6 +18,7 @@
       <li>Fra selvlærte kodere til folk med mastergrad</li>
       <li>Over 18 år</li>
     </ul>
+    <br />
     <div class="cta-area">
       <a href="#kontakt" class="cta main">Kontakt</a>
       <a href="#aktiviteter" class="cta secondary">Aktiviteter</a>
