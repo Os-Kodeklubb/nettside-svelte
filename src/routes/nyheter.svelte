@@ -1,5 +1,5 @@
 <script>
-  import BlogSection from '../components/BlogSection.svelte'
+  import BlogSection from "../components/BlogSection.svelte";
 </script>
 
 <svelte:head>
