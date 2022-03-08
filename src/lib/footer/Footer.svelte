@@ -1,3 +1,7 @@
+<script>
+  import ContactSection from "../../components/ContactSection.svelte";
+</script>
+
 <footer id="kontakt">
     <div class="row">
         <div class="box">
@@ -5,6 +9,9 @@
                 <h2>Bli med i Os Kodeklubb!</h2>
                 <h4>Nysgjerrig på koding?</h4>
                 <p>Kontakt oss og bli med - ingen forkunnskaper nødvendig!</p>
+                <ContactSection />
+
+
                 <p>telefon 908 62 611 eller post@oskodeklubb.no</p>
             </div>
 
