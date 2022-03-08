@@ -1,4 +1,6 @@
-<script>
+<script context="module">
+  export const prerender = true
+
 	const handleSubmit = (e) => {
 		e.preventDefault()
 		let myForm = document.getElementById('kontaktskjema');
@@ -12,13 +14,13 @@
 	}
 </script>
 
-<form id="kontaktskjema" on:submit{handleSubmit} name="Kontakt - Os Kodeklubb" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+<form id="kontaktskjema" on:submit{handleSubmit} name="Contact - Os Kodeklubb" method="POST" data-netlify="true" netlify-honeypot="bot-field">
   <div class="container">
-    <input type="text" name="name" placeholder="Navn" />
-    <input type="email" name="email" placeholder="Email" />
-    <input type="text" name="bot-field" />
+      <input type="text" name="name" placeholder="Navn" />
+      <input type="email" name="email" placeholder="Email" />
+      <input type="text" name="bot-field" />
   </div>
   <textarea name="message" placeholder="Melding" />
-  <button class="mx-2 bg-red-50 border-2 px-2 rounded-md  block mx-auto" type="submit">Send Melding</button>
-  <input type="hidden" name="form-name" value="Kontakt - Os Kodeklubb">
+  <button type="submit">Send Melding</button>
+  <input type="hidden" name="form-name" value="Contact - Os Kodeklubb">
 </form>
