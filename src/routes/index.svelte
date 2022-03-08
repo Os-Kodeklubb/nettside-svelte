@@ -1,3 +1,7 @@
+<script context="module">
+  export const prerender = true
+</script>
+
 <script>
   import HeroSection from "../components/HeroSection.svelte";
   import AboutUsSection from "../components/AboutUsSection.svelte";
