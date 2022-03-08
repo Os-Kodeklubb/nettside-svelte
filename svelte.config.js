@@ -21,7 +21,7 @@ const config = {
             crawl: true,
             enabled: true,
             onError: 'continue',
-            pages: ['*'],
+            entries: ['*'],
         },
     },
 };
