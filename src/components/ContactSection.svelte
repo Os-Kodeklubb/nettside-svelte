@@ -1,4 +1,3 @@
-
 <form id="kontaktskjema" name="Kontakt - Os Kodeklubb" method="POST" data-netlify="true" netlify-honeypot="bot-field">
   <div class="container">
     <input type="text" name="name" placeholder="Navn" />
