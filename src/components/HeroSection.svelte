@@ -107,12 +107,19 @@
   }
 
   @media only screen and (max-width: 488px) {
+
+    .hero {
+          padding-bottom: 0px;
+        }
     section {
       video {
         display: none;
       }
       .text-on-image {
         position: unset;
+        display: grid;
+        place-items: center;
+
         h1 {
           text-align: center;
           overflow-wrap: break-word;
@@ -123,6 +130,11 @@
           justify-content: center;
           flex-wrap: wrap;
           gap: 0.5em;
+          margin-top: 0.7rem;
+        }
+
+        .hero {
+          padding-bottom: 0.5rem;
         }
       }
 
