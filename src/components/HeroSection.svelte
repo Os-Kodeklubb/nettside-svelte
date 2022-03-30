@@ -120,6 +120,10 @@
         display: grid;
         place-items: center;
 
+        li {
+          font-size: 1rem;
+        }
+
         h1 {
           text-align: center;
           overflow-wrap: break-word;
