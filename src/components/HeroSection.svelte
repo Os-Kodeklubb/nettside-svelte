@@ -117,8 +117,7 @@
       }
       .text-on-image {
         position: unset;
-        display: grid;
-        place-items: center;
+        padding-left: 2rem;
 
         li {
           font-size: 1rem;
