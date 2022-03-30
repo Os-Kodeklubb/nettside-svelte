@@ -132,10 +132,6 @@
           gap: 0.5em;
           margin-top: 0.7rem;
         }
-
-        .hero {
-          padding-bottom: 0.5rem;
-        }
       }
 
       .gradient {
