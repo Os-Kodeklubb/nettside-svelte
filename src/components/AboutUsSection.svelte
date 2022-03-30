@@ -40,6 +40,18 @@
     width: 500px;
   }
 
+  @media only screen and (max-width: 30.5rem) {
+    .box {
+      padding: 0px;
+      padding-bottom: 1rem;
+      text-align: center;
+    }
+
+    .box > .item {
+      margin-bottom: 1rem;
+    }
+  }
+
   @media only screen and (max-width: 767px) {
     .item {
       width: 500px;
