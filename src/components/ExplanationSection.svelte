@@ -85,17 +85,22 @@
         font-size: 1.25em;
         font-weight: 600;
         text-transform: uppercase;
+        text-align: center;
     }
     .item-list p {
         color: #3c4856c2;
         font-size: 1em;
         line-height: 1.5;
-        text-align: left;
+        text-align: center;
         margin: 0.5rem 0 2.3625rem 0;
     }
 
     .item {
         width: 500px;
+    }
+
+    .item p {
+      justify-content: center;
     }
 
     @media only screen and (max-width: 767px) {
