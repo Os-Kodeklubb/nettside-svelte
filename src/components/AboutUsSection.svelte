@@ -1,7 +1,7 @@
 <section class="explanation" id="om-oss">
   <div class="row">
     <div class="box item-list">
-      <h2 class="item" style="font-size: 70px; color: var(--secondary-color)">
+      <h2 class="item" style="color: var(--secondary-color)">
         Hva er Os Kodekubb?
       </h2>
       <div class="divider" />
@@ -33,11 +33,12 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0;
-    align-items: center;
+
   }
 
   .item {
     width: 500px;
+    text-align: center;
   }
 
   @media only screen and (max-width: 30.5rem) {
@@ -62,6 +63,17 @@
       height: 400px;
       display: none;
     }
+
+    .item-list p {
+      text-align: center;
+      font-size: 1rem;
+
+    }
+
+    .item-list h2 {
+      font-size: 1.5rem;
+    }
+
   }
 
   @media only screen and (min-width: 768px) {
@@ -72,6 +84,10 @@
     .divider {
       border-left: 1px solid #000;
       height: 600px;
+    }
+
+    .item-list h2 {
+      font-size: 30px;
     }
   }
 
@@ -84,6 +100,10 @@
       border-left: 1px solid #000;
       height: 500px;
     }
+
+    .item-list h2 {
+      font-size: 40px;
+    }
   }
 
   @media only screen and (min-width: 1087px) {
@@ -93,6 +113,10 @@
     .divider {
       border-left: 1px solid #000;
       height: 400px;
+    }
+
+    .item-list h2 {
+      font-size: 50px;
     }
   }
 
@@ -104,6 +128,10 @@
       border-left: 1px solid #000;
       height: 400px;
     }
+
+    .item-list h2 {
+      font-size: 60px;
+    }
   }
 
   @media only screen and (min-width: 1400px) {
@@ -114,6 +142,10 @@
       border-left: 1px solid #000;
       height: 300px;
     }
+
+    .item-list h2 {
+      font-size: 70px;
+    }
   }
   @media only screen and (min-width: 1401px) {
     .item {
@@ -122,6 +154,9 @@
     .divider {
       border-left: 1px solid #000;
       height: 300px;
+    }
+    .item-list h2 {
+      font-size: 70px;
     }
   }
 
@@ -132,6 +167,9 @@
     .divider {
       border-left: 1px solid #000;
       height: 300px;
+    }
+    .item-list h2 {
+      font-size: 70px;
     }
   }
 </style>

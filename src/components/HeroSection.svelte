@@ -8,8 +8,8 @@
   <div class="text-on-image">
     <div style="width: fit-content;">
       <h1>KODEFELLESSKAP</h1>
-      <hr style="border: 1px solid black;" />
-    </div>
+
+
     <ul>
       <li>Fokus på å lære koding</li>
       <li>Kodespråkuavhengig</li>
@@ -19,6 +19,7 @@
       <li>Over 18 år</li>
     </ul>
     <br />
+    </div>
     <div class="cta-area">
       <a href="#kontakt" class="cta main">Kontakt</a>
       <a href="#aktiviteter" class="cta secondary">Aktiviteter</a>
@@ -95,6 +96,8 @@
   li {
     color: black;
     font-size: 2rem;
+
+
   }
 
   h1 {
