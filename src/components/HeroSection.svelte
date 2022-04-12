@@ -6,19 +6,16 @@
   </video>
 
   <div class="text-on-image">
-    <div style="width: fit-content;">
+    <div>
       <h1>KODEFELLESSKAP</h1>
-
-
-    <ul>
-      <li>Fokus på å lære koding</li>
-      <li>Kodespråkuavhengig</li>
-      <li>Design, frontend, backend, fullstack og sikkerhet</li>
-      <li>Alt fra nybegynnere til erfarne kodere</li>
-      <li>Fra selvlærte kodere til folk med mastergrad</li>
-      <li>Over 18 år</li>
-    </ul>
-    <br />
+      <ul>
+        <li>Fokus på å lære koding</li>
+        <li>Kodespråkuavhengig</li>
+        <li>Design, frontend, backend, fullstack og sikkerhet</li>
+        <li>Alt fra nybegynnere til erfarne kodere</li>
+        <li>Fra selvlærte kodere til folk med mastergrad</li>
+        <li>Over 18 år</li>
+      </ul>
     </div>
     <div class="cta-area">
       <a href="#kontakt" class="cta main">Kontakt</a>
@@ -96,8 +93,6 @@
   li {
     color: black;
     font-size: 2rem;
-
-
   }
 
   h1 {
@@ -109,7 +104,7 @@
     color: black;
   }
 
-  @media only screen and (max-width: 488px) {
+  @media only screen and (max-width: 30.5rem) {
 
     .hero {
           padding-bottom: 0px;
@@ -121,14 +116,22 @@
       .text-on-image {
         position: unset;
         padding-left: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+        background-color: var(--primary-background-color);
 
         li {
-          font-size: 1rem;
+          font-size: 1.2rem;
         }
 
         h1 {
-          text-align: center;
           overflow-wrap: break-word;
+          margin: 0;
+          margin-top: 1.5rem;
+          font-size: 2rem;
+        }
+        ul {
+          padding-left: 1rem;;
         }
 
         .cta-area {

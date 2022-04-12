@@ -103,6 +103,12 @@
       justify-content: center;
     }
 
+    @media only screen and (max-width: 30.5rem) {
+        .item p {
+            font-size: 1.2em;
+        }
+
+  }
     @media only screen and (max-width: 767px) {
         .item {
             width: 500px;

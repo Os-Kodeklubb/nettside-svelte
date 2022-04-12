@@ -51,6 +51,14 @@
     .box > .item {
       margin-bottom: 1rem;
     }
+
+    .box p.item {
+      font-size: 1.2rem;
+    }
+    .box h2.item {
+      font-size: 1.7rem;
+    }
+
   }
 
   @media only screen and (max-width: 767px) {
