@@ -1,4 +1,4 @@
-<section class="explanation" id="aktiviteter">
+<section class="membership" id="aktiviteter">
     <div class="row">
         <div class="box">
             <h2>Aktiviteter i Os Kodeklubb</h2>
@@ -113,7 +113,7 @@
         .item {
             width: 500px;
         }
-        .explanation {
+        .membership {
             .row {
                 .box {
                     padding-bottom: 1px;

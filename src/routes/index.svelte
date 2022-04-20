@@ -6,7 +6,8 @@
   import HeroSection from "../components/HeroSection.svelte";
   import AboutUsSection from "../components/AboutUsSection.svelte";
   import ExplanationSection from "../components/ExplanationSection.svelte";
-  import BlogSection from "../components/BlogSection.svelte";
+  //import BlogSection from "../components/BlogSection.svelte";
+  import MembershipSection from "../components/MembershipSection.svelte";
 </script>
 
 <svelte:head>
@@ -16,6 +17,7 @@
 <HeroSection />
 <AboutUsSection />
 <ExplanationSection />
+<MembershipSection />
 <!-- <BlogSection /> -->
 
 <style lang="scss"></style>
