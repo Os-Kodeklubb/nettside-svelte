@@ -1,5 +1,6 @@
 <script>
   import ContactSection from "../../components/ContactSection.svelte";
+  import SponsorsSection from "../../components/SponsorsSection.svelte";
 </script>
 
 <footer id="kontakt">
@@ -21,7 +22,7 @@
         </div>
 
     </div>
-
+    <SponsorsSection/>
 </footer>
 
 <style lang="scss">

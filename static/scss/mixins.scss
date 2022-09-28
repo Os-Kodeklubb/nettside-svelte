@@ -1,0 +1,16 @@
+@mixin create_grid($col, $col-gap, $row-gap) {
+  & > * + * {
+    margin-top: $row-gap;
+  }
+
+  @supports (display: grid) {
+    & > * + * {
+      margin-top: 0;
+    }
+    display: grid;
+    grid-template-columns: repeat($col, 1fr);
+    column-gap: $col-gap;
+    row-gap: $row-gap;
+  }
+}
+
