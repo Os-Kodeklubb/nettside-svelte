@@ -1,5 +1,5 @@
 <script>
-    import ITSSvg from "$static/images/Sponsorer.ITSSvg.svg"
+    import ITSSvg from "$static/images/Sponsorer/ITSSvg.svg"
 </script>
 
 <section class="container">
