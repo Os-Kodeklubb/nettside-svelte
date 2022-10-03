@@ -1,14 +1,15 @@
 <script>
     import ITSSvg from "$static/images/Sponsorer/ITSSvg.svg"
+    import K1Svg from "$static/images/Sponsorer/K1Svg.svg"
+    import UC1Svg from "$static/images/Sponsorer/UC1Svg.svg"
+    import TB2Svg from "$static/images/Sponsorer/TB2Svg.svg"
 </script>
 
 <section class="container">
-    <!--<img src="../../static/images/Sponsorer/ITSSvg.svg" alt="Insurance Technology Solution AS" loading="lazy"/>
-    <img src="../../static/images/Sponsorer/K1Svg.svg" alt="Kantega AS" loading="lazy"/>
-    <img src="../../static/images/Sponsorer/UC1Svg.svg" alt="Ulriken Consulting AS"loading="lazy"/>
-    <img src="../../static/images/Sponsorer/TB2Svg.svg" alt="Tidsbanken AS" loading="lazy"/>
-    -->
     <img src={ITSSvg} alt="Insurance Technology Solution AS" loading="lazy"/>
+    <img src={K1Svg} alt="Kantega AS" loading="lazy"/>
+    <img src={UC1Svg} alt="Ulriken Consulting AS"loading="lazy"/>
+    <img src={TB2Svg} alt="Tidsbanken AS" loading="lazy"/>
 </section>
 
 
