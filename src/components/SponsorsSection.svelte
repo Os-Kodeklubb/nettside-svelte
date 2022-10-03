@@ -3,10 +3,10 @@
 </script>
 
 <section class="container">
-    <img src="../../static/images/Sponsorer/ITS.png" alt="Insurance Technology Solution AS" loading="lazy"/>
-    <img src="../../static/images/Sponsorer/K1.png" alt="Kantega AS" loading="lazy"/>
-    <img src="../../static/images/Sponsorer/UC1.png" alt="Ulriken Consulting AS"loading="lazy"/>
-    <img src="../../static/images/Sponsorer/TB2.png" alt="Tidsbanken AS" loading="lazy"/>
+    <img src="../../static/images/Sponsorer/ITSSvg.svg" alt="Insurance Technology Solution AS" loading="lazy"/>
+    <img src="../../static/images/Sponsorer/K1Svg.svg" alt="Kantega AS" loading="lazy"/>
+    <img src="../../static/images/Sponsorer/UC1Svg.svg" alt="Ulriken Consulting AS"loading="lazy"/>
+    <img src="../../static/images/Sponsorer/TB2Svg.svg" alt="Tidsbanken AS" loading="lazy"/>
 </section>
 
 
