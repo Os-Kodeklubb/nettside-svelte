@@ -10,8 +10,12 @@
     <img src={K1Svg} alt="Kantega AS" loading="lazy"/>
     <img src={UC1Svg} alt="Ulriken Consulting AS"loading="lazy"/>
     <img src={TB2_270Svg} alt="Tidsbanken AS" loading="lazy"/>
+
 </section>
 
+<div class="constainerh1">
+    <h1>Våre sponsorer</h1>
+</div>
 
 
 <style type="scss">
@@ -30,6 +34,10 @@
     }
   }
 
+    .constainerh1 h1 {
+      fontsize: 25px;
+      text-align: center;
 
+    }
 
 </style>
