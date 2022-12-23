@@ -3,6 +3,7 @@
     import K1Svg from "$static/images/Sponsorer/K1Svg.svg"
     import UC1Svg from "$static/images/Sponsorer/UC1Svg.svg"
     import TB2_270Svg from "$static/images/Sponsorer/TB2_270Svg.svg"
+    import M1Svg from "$static/images/Sponsorer/M1Svg.svg"
 </script>
 
 <section class="container">
@@ -10,6 +11,7 @@
     <img src={K1Svg} alt="Kantega AS" loading="lazy"/>
     <img src={UC1Svg} alt="Ulriken Consulting AS"loading="lazy"/>
     <img src={TB2_270Svg} alt="Tidsbanken AS" loading="lazy"/>
+    <img src={M1Svg} alt="Miles AS" loading="lazy"/>
 
 </section>
 
